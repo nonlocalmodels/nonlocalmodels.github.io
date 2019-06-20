@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-permalink: /about/
+permalink: /team/
 ---
 
 # Core developers
