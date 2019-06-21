@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+The non local models organization is a collaboration of [researchers](/team) developing a simulation code for various non local models, e.g. [peridynamics](). The code is released on [github](https://github.com/nonlocalmodels) under the GPL license and [build tools](https://github.com/nonlocalmodels/buildscripts) for an ease installation are available.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+The code uses the C++ standard library for parallism and concurrency ([HPX](https://github.com/STEllAR-GROUP)) for its parallel and distributed implementation. 
