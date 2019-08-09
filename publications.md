@@ -10,4 +10,4 @@ permalink: /publications/
 
 # Applications
 
-* Lipton, R.P., Lehoucq, R.B. & Jha, P.K. J Peridyn Nonlocal Model (2019). [https://doi.org/10.1007/s42102-019-00010-0](https://doi.org/10.1007/s42102-019-00010-0)
+* Lipton RP, Lehoucq RB, Jha PK. Complex fracture nucleation and evolution with nonlocal elastodynamics. Journal of Peridynamics and Nonlocal Modeling. 2016:1-9. [Link](https://doi.org/10.1007/s42102-019-00010-0)
