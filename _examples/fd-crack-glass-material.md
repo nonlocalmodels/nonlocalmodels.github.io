@@ -67,5 +67,5 @@ We consider uniform mesh of mesh size `h = $\epsilon$/4`.
 We show setup, displacement, and damage plot at time `t = 0.000058 seconds`. Results are from paper [Lipton et al 2019](https://doi.org/10.1007/s42102-019-00010-0).
 
 <p id="result" align="center">
-	<img src="result.png" alt="setup" width="600" height="540" />
+	<img src="{{ site.url }}/assets/img/fd_crack_glass_result.png" alt="setup" width="600" height="540" />
 </p>
