@@ -42,9 +42,9 @@ title: Deformation of 2-d Logo
 
 - Boundary condition
 
-	- We apply body force along horizontal axis.
+	- We apply body force along horizontal axis on whole material domain.
 
-	- Force is given by $f_x(x,y,t) = f t sin(n\pi x/L_x)$ where `n = 2` and `f = 1.5E+09`.
+	- Force is given by $f_x(x,y,t) = f t sin(n\pi x/L_x)$ where `n = 3` and `f = 1.5E+09`.
 
 - We specify `Displacement`, `Velocity`, `Force` and `Damage_Z` as output candidates. 
 
