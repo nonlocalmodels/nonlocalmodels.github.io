@@ -9,3 +9,5 @@ some of them are taken from publications. We hope that these examples provide yo
 ## Finite difference model
 
 * [Crack propagation in Glass material](/examples/fd-crack-glass-material.html)
+
+* [Deformation of 2-d Logo](/examples/fd-logo-soft-material.html)
