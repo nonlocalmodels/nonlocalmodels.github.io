@@ -26,7 +26,7 @@ title: Deformation of 2-d Logo
 
 - Fracture properties of material are as follows:
 
-	- Critical energy release rate `$G_c$ = 9.998E+02 J/$m^3$`
+	- Critical energy release rate `$G_c$ = 9.998E+02 J/$m^2$`
 
 - For above elastic properties and fracture properties, we can compute the parameters in Peridynamic material model. This has been described in detail in [RNPBond::computeParameters](../../../src/material/pd/rnpBond.h).
 
