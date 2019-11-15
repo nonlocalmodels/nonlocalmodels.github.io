@@ -13,3 +13,7 @@ some of them are taken from publications. We hope that these examples provide yo
 * [Deformation of 2-d Logo](/examples/fd-logo-soft-material.html)
 
 * [Deformation of 2-d Logo - 2](/examples/fd-logo-soft-material-2.html)
+
+## Quasi-static model
+
+* [Recovering the elastic properties (1D)](/examples/qs-1d-properties.html)
