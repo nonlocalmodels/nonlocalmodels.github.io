@@ -29,7 +29,7 @@ The file [input.yaml](https://github.com/nonlocalmodels/NLMech/tree/master/examp
 
 ### Model
 
-The quasi-static models as described in [1] is used to assemble the tangent stiffness matrix and obatin the solution by solving newtoen steps. 
+The quasi-static models as described in [1] is used to assemble the tangent stiffness matrix and obtain the solution by solving Newton steps. 
 
 ```yaml 
 Model:
@@ -63,7 +63,7 @@ Material:
 
 #### Displacement boundary conditions
 
-The following code apllies a fixed displacement to the first node on the left-handside in the first figure. 
+The following code applies a fixed displacement to the first node on the left-hand side in the first figure. 
 
 
 ```yaml
@@ -81,9 +81,9 @@ Displacement_BC:
       Type: constant
 ```
 
-#### Force boundary confitions
+#### Force boundary conditions
 
-The following code applies a external body force density to the last node on the right-handside in the first figure.
+The following code applies a external body force density to the last node on the right-hand side in the first figure.
 Note that in this example we want to apply a force $F=40$, however since the last node has a volume $v=0.25$ this results
 in a body force density $b=40/0.25=166$.
 
@@ -122,7 +122,7 @@ Solver:
     <img src="{{ site.url }}/assets/img/qs_1D_force.png" alt="setup"  />
 </p>
 
-All the forces in the mid of the bar are zero, execpt the forces at the boundary which are $F=40$ on the right-handside and $F=-40$ on the left-handside. This corresponds to the loading we applied.
+All the forces in the mid of the bar are zero, except the forces at the boundary which are $F=40$ on the right-hand side and $F=-40$ on the left-hand side. This corresponds to the loading we applied.
 
 ### Stress
 
@@ -130,7 +130,7 @@ All the forces in the mid of the bar are zero, execpt the forces at the boundary
     <img src="{{ site.url }}/assets/img/qs_1D_force.png" alt="setup"  />
 </p>
 
-The stress in classical contimuums mechanics is given as $\sigma=F/S$, where $F$ is the applied force and $S$ is the surface area of the bar. Assuming a surface area $S=1$ leads to $\sigma=40/1=40$ which matches the stress in the Figures for the nodes in the center of the bar. Note that the nodes close to the boundary have non-matching values due to the si-called surface effect. 
+The stress in classical continuum mechanics is given as $\sigma=F/S$, where $F$ is the applied force and $S$ is the surface area of the bar. Assuming a surface area $S=1$ leads to $\sigma=40/1=40$ which matches the stress in the Figures for the nodes in the center of the bar. Note that the nodes close to the boundary have non-matching values due to the so-called surface effect. 
 
 
 ### Strain
@@ -139,7 +139,7 @@ The stress in classical contimuums mechanics is given as $\sigma=F/S$, where $F$
     <img src="{{ site.url }}/assets/img/qs_1D_strain.png" alt="setup"  />
 </p>
 
-The strain in claasical continnums mechanics is given as $\epsilon=F/(S\cdot E)=40/(1\cdot 4000)=0.01$ which matches for the nodes in the center of the bar Note that the nodes close to the boundary have non-matching values due to the si-called surface effect.
+The strain in classical continuum mechanics is given as $\epsilon=F/(S\cdot E)=40/(1\cdot 4000)=0.01$ which matches for the nodes in the center of the bar. Note that the nodes close to the boundary have non-matching values due to the so-called surface effect.
 
 ### Strain energy
 
@@ -147,7 +147,7 @@ The strain in claasical continnums mechanics is given as $\epsilon=F/(S\cdot E)=
     <img src="{{ site.url }}/assets/img/qs_1D_strain_energy.png" alt="setup"  />
 </p>
 
-
+The strain energy in classical continuum mechanics is given as $U=\sigma^2/(2\cdot E)=40^2/(2\cdot 4000)=0.2$ which matches for the nodes in the center of the bar. Note that the nodes close to the boundary have non-matching values due to the so-called surface effect.
 
 
 ## References
