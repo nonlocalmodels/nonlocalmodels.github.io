@@ -35,8 +35,8 @@ The quasi-static models as described in [1] is used to assemble the tangent stif
 Model:
   Dimension: 1
   Discretization_Type:
-    Spatial: quasi_static
-    Time: central_difference
+    Spatial: finite_difference
+    Time: quasi_static
   Final_Time: 1
   Time_Steps: 1
   Horizon: 1
