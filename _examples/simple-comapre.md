@@ -34,7 +34,7 @@ Compare_Tags:
     - Force
 ```
 
-Note the option `Tolerance` specifies the absolute error between the two $L_2 norms$ and if the error is larger the program 
+Note the option `Tolerance` specifies the absolute error between the two $L_2$ norms and if the error is larger the program 
 returns `EXIT_FAILURE` and this return value is captured in the [ctest](https://github.com/nonlocalmodels/NLMech/tree/master/test/CMakeLists.txt) 
 to determine the result. 
 
