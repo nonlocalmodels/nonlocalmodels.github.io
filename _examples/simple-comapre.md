@@ -16,7 +16,7 @@ title: Comparing two simulation results
 Sometimes it can be convenient to compare two simulation results, e.g. for a test case to compare different simulations. Therefore, we provide
 the dc compare tool. In this example we showcase the simple version to compute the $L_2$ norm of different field properties. 
 
-The file [input_compare.y'all](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/1D/input_compare.yaml) in the [example folder](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/1D) will be used as an example to compare the two simulation results for testing the implementation of the material model and the quasi-static time integration. 
+The file [input_compare.yaml](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/1D/input_compare.yaml) in the [example folder](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/1D) will be used as an example to compare the two simulation results for testing the implementation of the material model and the quasi-static time integration. 
 
 ```yaml 
 Dimension: 2

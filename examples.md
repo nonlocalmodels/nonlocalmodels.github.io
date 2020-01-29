@@ -17,7 +17,9 @@ some of them are taken from publications. We hope that these examples provide yo
 ## Quasi-static model
 
 * [Recovering the elastic properties (1D)](/examples/qs-1d-properties.html)
+* [Recovering the elastic properties (2D)](/examples/qs-2d-elastic.html)
 
 ## Tools
 
 * [Simple comparison of two simulation files](/examples/simple-comapre.html)
+* [Generating a regular mesh](/examples/regular-mesh.html)
