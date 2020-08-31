@@ -87,11 +87,11 @@ Displacement_BC:
 
 #### Force boundary conditions
 
-The following code applies a external body force density to the last node on the right-hand side in the first figure.
+The following code applies a external body force density to the last node on the left-hand side in the first figure.
 
-Note that in this example we want to apply a force $F=40$, however since the last node has a volume $v=0.25$ this results
-
-in a body force density $b=40/0.25=166$.
+Note that in this example we want to apply a force $F=-40N$, however, the body force density has the units $\frac{N}{mm^2}$. Thus, 
+the force is devided by the area $1.6\times 0.1$, where $1.6$ is the length of the plate and $0.1$ is the mesh width. This results
+in a body force density $-250$.
 
 ```yaml
 Force_BC:
@@ -120,7 +120,15 @@ Solver:
   Perturbation: 1e-7
 ```
 
-## References
+## Validation 
 
+The prediction of the displacement field in $x$-direction is shown in second figure. For the derivation of the displacement field, we refer to [3].
+
+<p id="mesh" align="center">
+	<img src="{{ site.url }}/assets/img/qs_ccm.png" alt="setup"  />
+</p>
+
+## References
 1. Littlewood, David J. "Roadmap for peridynamic software implementation." SAND Report, Sandia National Laboratories, Albuquerque, NM and Livermore, CA (2015).
 2. Silling, Stewart A., et al. "Peridynamic states and constitutive modeling." Journal of Elasticity 88.2 (2007): 151-184.
+3.
