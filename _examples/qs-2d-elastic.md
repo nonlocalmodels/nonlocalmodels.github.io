@@ -128,6 +128,13 @@ The prediction of the displacement field in $x$-direction is shown in second fig
 	<img src="{{ site.url }}/assets/img/qs_ccm.png" alt="setup"  />
 </p>
 
+The third figure shows the obtained displacement field by the code using the above configuration. 
+
+
+<p id="mesh" align="center">
+	<img src="{{ site.url }}/assets/img/qs_2d_code.png" alt="setup"  />
+</p>
+
 ## References
 1. Littlewood, David J. "Roadmap for peridynamic software implementation." SAND Report, Sandia National Laboratories, Albuquerque, NM and Livermore, CA (2015).
 2. Silling, Stewart A., et al. "Peridynamic states and constitutive modeling." Journal of Elasticity 88.2 (2007): 151-184.
