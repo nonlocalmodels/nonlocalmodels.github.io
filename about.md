@@ -15,4 +15,4 @@ Following packages are available:
 * [build tools](https://github.com/nonlocalmodels/buildscripts) for an ease installation are available.
 * [HPCBuildInfrastructure](https://github.com/nonlocalmodels/HPCBuildInfrastructure) for an ease installation of any HPX enviroment,
 
-Please cite the latest relase using **DOI** or any of our [publications](https://nonlocalmodels.github.io/publications/).
+Please cite any of our [publications](https://nonlocalmodels.github.io/publications/)m if you used the code.
