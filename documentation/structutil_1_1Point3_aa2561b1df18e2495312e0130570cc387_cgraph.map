@@ -1,0 +1,5 @@
+<map id="util::Point3::project" name="util::Point3::project">
+<area shape="rect" id="node1" title="Computes projection of vector on this vector." alt="" coords="5,31,151,57"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362" title="Computes the dot product of this vector with another point." alt="" coords="209,5,330,32"/>
+<area shape="rect" id="node3" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="199,56,340,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="util::function::getDeterminant" name="util::function::getDeterminant">
+<area shape="rect" id="node1" title="Get determinant of 3&#45;d matrix." alt="" coords="740,13,955,39"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a34067ba7b7a58a56e30ca0e79135a1be" title="Computes the volume of tetrahedron." alt="" coords="481,13,692,39"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1geometry.html#ad638b6d9fa8c16e4da4dca002feb9195" title="Computes the centroid and volume of element." alt="" coords="248,5,433,47"/>
+<area shape="rect" id="node4" href="$classfe_1_1Mesh.html#a4944c0271ac8613ba58666143f79321b" title="Converts standard fem mesh to particle mesh with nodes at the center of element." alt="" coords="5,13,200,39"/>
+</map>

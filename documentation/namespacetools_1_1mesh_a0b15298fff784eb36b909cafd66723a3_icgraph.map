@@ -1,0 +1,4 @@
+<map id="tools::mesh::uniformTriSym" name="tools::mesh::uniformTriSym">
+<area shape="rect" id="node1" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="191,5,392,32"/>
+<area shape="rect" id="node2" href="$namespacetools_1_1mesh.html#abe5d0acf50737fa53e14e32a086c53c8" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,5,143,32"/>
+</map>

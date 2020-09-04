@@ -1,0 +1,4 @@
+<map id="test::getExactIntegrationRefQuad" name="test::getExactIntegrationRefQuad">
+<area shape="rect" id="node1" title="Computes integration of polynomial exactly over reference quadrangle." alt="" coords="200,5,383,47"/>
+<area shape="rect" id="node2" href="$namespacetest.html#a77221b8e7b323ac07225f47199b7cf7f" title="Perform test on quadrature points on quadrangle elements." alt="" coords="5,13,152,39"/>
+</map>

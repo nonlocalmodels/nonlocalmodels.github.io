@@ -1,0 +1,5 @@
+<map id="geometry::BaseInterior" name="geometry::BaseInterior">
+<area shape="rect" id="node1" title="An abstraction class to store interior/exterior flags of node." alt="" coords="123,5,294,171"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1ComputeInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="5,219,204,340"/>
+<area shape="rect" id="node3" href="$classgeometry_1_1DataInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="229,219,399,340"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="util::geometry::doLinesIntersect" name="util::geometry::doLinesIntersect">
+<area shape="rect" id="node1" title="Checks if the two lines between A and B and between C and C interesect." alt="" coords="5,31,233,57"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a563a9723ebdbc9d8c9b925e5a592c05e" title="Checks if the point C in on the line between A and B." alt="" coords="281,5,460,32"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1geometry.html#aeca03f85a25bff0fce816fc42aac8b3c" title="Checks if the point C in on the between A and B." alt="" coords="289,56,453,83"/>
+</map>

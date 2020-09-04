@@ -1,0 +1,7 @@
+<map id="tools::pp::Compute::initWriter" name="tools::pp::Compute::initWriter">
+<area shape="rect" id="node1" title="Create new writer object if it is not already done so." alt="" coords="5,104,151,145"/>
+<area shape="rect" id="node2" href="$classrw_1_1writer_1_1Writer.html#a3d2553a0bbe56d50513254c7f677fc6b" title="Writes the time step to the file." alt="" coords="199,5,329,47"/>
+<area shape="rect" id="node3" href="$classrw_1_1writer_1_1Writer.html#abbc31ddad6840bd96c383b1732be71bb" title="Writes the mesh data to file." alt="" coords="199,71,329,112"/>
+<area shape="rect" id="node4" href="$classrw_1_1writer_1_1Writer.html#ae695a091707e886e920cb4a987cc6f2a" title="Writes the nodes to the file." alt="" coords="199,136,329,177"/>
+<area shape="rect" id="node5" href="$classrw_1_1writer_1_1Writer.html#a99073ac82c4547629307fb269235d051" title="Open a .vtu file." alt="" coords="199,201,329,243"/>
+</map>

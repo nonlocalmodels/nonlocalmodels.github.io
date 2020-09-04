@@ -1,0 +1,7 @@
+<map id="util::dot" name="util::dot">
+<area shape="rect" id="node1" title="Computes the dot product between matrix and vector." alt="" coords="288,105,360,132"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a4d1ce7df6b902a1b374c89f4d1a2f69d" title="Computes angle between two vectors." alt="" coords="44,29,201,56"/>
+<area shape="rect" id="node3" href="$classfe_1_1TetElem.html#a9b945d960dbf453968a1785741b8d66c" title="Returns the values of derivative of shape function at point p." alt="" coords="25,80,220,107"/>
+<area shape="rect" id="node4" href="$classfe_1_1TetElem.html#acf2316070778994bb2ad5240d1dd7609" title="Get vector of quadrature data." alt="" coords="25,131,221,157"/>
+<area shape="rect" id="node5" href="$classfe_1_1TetElem.html#a34d87462ff99f90f444ca83ee600d1aa" title="Maps point p in a given element to the reference element." alt="" coords="5,181,240,208"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="geometry::BaseInterior" name="geometry::BaseInterior">
+<area shape="rect" id="node1" title="An abstraction class to store interior/exterior flags of node." alt="" coords="5,5,176,171"/>
+</map>

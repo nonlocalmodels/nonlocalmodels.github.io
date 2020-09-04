@@ -1,0 +1,4 @@
+<map id="util::geometry::getTetVolume" name="util::geometry::getTetVolume">
+<area shape="rect" id="node1" title="Computes the volume of tetrahedron." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1function.html#ad18e25eeac17b226a18ffcd580fa6a76" title="Get determinant of 3&#45;d matrix." alt="" coords="264,5,479,32"/>
+</map>

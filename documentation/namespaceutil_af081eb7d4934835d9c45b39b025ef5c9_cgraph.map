@@ -1,0 +1,4 @@
+<map id="util::dot" name="util::dot">
+<area shape="rect" id="node1" title="Computes the dot product between matrix and vector." alt="" coords="5,5,77,32"/>
+<area shape="rect" id="node2" href="$namespaceutil.html#ae4a8ddcdd832032df5a6dfc33cd95db4" title="Checks matrix." alt="" coords="125,5,256,32"/>
+</map>

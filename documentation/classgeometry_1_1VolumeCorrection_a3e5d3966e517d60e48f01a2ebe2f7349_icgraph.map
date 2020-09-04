@@ -1,0 +1,4 @@
+<map id="geometry::VolumeCorrection::correctVolume" name="geometry::VolumeCorrection::correctVolume">
+<area shape="rect" id="node1" title="Computes the volume correction for each node inside the neighborhood. Since nodes close the boundary ..." alt="" coords="261,5,469,47"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1VolumeCorrection.html#a6ab0af7ec2ba8084f85d8c94bd32cacb" title="Constructor." alt="" coords="5,5,213,47"/>
+</map>

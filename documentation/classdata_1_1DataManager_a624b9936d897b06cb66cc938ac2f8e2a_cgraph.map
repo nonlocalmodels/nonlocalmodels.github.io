@@ -1,0 +1,5 @@
+<map id="data::DataManager::print" name="data::DataManager::print">
+<area shape="rect" id="node1" title="Prints the information about the instance of the object." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classdata_1_1DataManager.html#a4b36acb7f3967e0b5edb7286a3c2f902" title="Returns the string containing information about the instance of the object." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="411,13,533,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="util::geometry::getCenterAndVol" name="util::geometry::getCenterAndVol">
+<area shape="rect" id="node1" title="Computes the centroid and volume of element." alt="" coords="248,5,433,47"/>
+<area shape="rect" id="node2" href="$classfe_1_1Mesh.html#a4944c0271ac8613ba58666143f79321b" title="Converts standard fem mesh to particle mesh with nodes at the center of element." alt="" coords="5,13,200,39"/>
+</map>

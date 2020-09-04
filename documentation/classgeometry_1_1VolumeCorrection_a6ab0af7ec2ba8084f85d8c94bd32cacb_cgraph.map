@@ -1,0 +1,10 @@
+<map id="geometry::VolumeCorrection::VolumeCorrection" name="geometry::VolumeCorrection::VolumeCorrection">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,188,213,229"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1VolumeCorrection.html#a3e5d3966e517d60e48f01a2ebe2f7349" title="Computes the volume correction for each node inside the neighborhood. Since nodes close the boundary ..." alt="" coords="261,5,469,47"/>
+<area shape="rect" id="node3" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="288,71,443,112"/>
+<area shape="rect" id="node4" href="$classfe_1_1Mesh.html#a068ec3921531230930e56ab97bf840b7" title="Get the mesh size." alt="" coords="281,137,450,163"/>
+<area shape="rect" id="node5" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="288,188,443,229"/>
+<area shape="rect" id="node6" href="$classdata_1_1DataManager.html#ab7d6b17f07d69e15fee1940854b2bd30" title=" " alt="" coords="288,253,443,295"/>
+<area shape="rect" id="node7" href="$classfe_1_1Mesh.html#a15d5fd53a073ca3c01daf32ff4c7a783" title="Get the pointer to nodes data." alt="" coords="287,319,443,346"/>
+<area shape="rect" id="node8" href="$classgeometry_1_1VolumeCorrection.html#a49410213366d5d5d04d7e1dd52ae60af" title="Computes the weighted volume &#160;with &#160;as the influence function for each discrete node." alt="" coords="261,371,469,412"/>
+</map>

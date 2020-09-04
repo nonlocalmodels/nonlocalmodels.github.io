@@ -1,0 +1,4 @@
+<map id="inp::BCData::printStr" name="inp::BCData::printStr">
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="191,5,345,32"/>
+<area shape="rect" id="node2" href="$structinp_1_1BCData.html#a0be63be006c836b8850a7a2e94510815" title="Prints the information about the instance of the object." alt="" coords="5,5,143,32"/>
+</map>

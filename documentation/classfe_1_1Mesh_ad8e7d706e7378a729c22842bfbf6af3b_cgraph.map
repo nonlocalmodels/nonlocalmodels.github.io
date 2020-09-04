@@ -1,0 +1,7 @@
+<map id="fe::Mesh::computeVol" name="fe::Mesh::computeVol">
+<area shape="rect" id="node1" title="Compute the nodal volume." alt="" coords="5,56,168,83"/>
+<area shape="rect" id="node2" href="$classfe_1_1BaseElem.html#ad902d08a40f9f5d8c5f9afbf9128f381" title="Returns the size of element (length in 1&#45;d, area in 2&#45;d, volume in 3&#45;d element)" alt="" coords="233,5,409,32"/>
+<area shape="rect" id="node3" href="$classfe_1_1BaseElem.html#a34e668e342108647dfd9cb5928e18420" title="Get vector of quadrature data." alt="" coords="216,56,425,83"/>
+<area shape="rect" id="node4" href="$namespaceutil_1_1io.html#a1c93ac0c8a7bf4145a5358e205fa2d33" title="Concatenates the elements of the vector separated with a comma." alt="" coords="261,107,380,133"/>
+<area shape="rect" id="node5" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="473,107,596,133"/>
+</map>

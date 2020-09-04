@@ -1,0 +1,4 @@
+<map id="material::pd::BaseMaterial::printStr" name="material::pd::BaseMaterial::printStr">
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1BaseMaterial.html#a24e8c416fa4d2a27b290f4ecb6236b54" title="Prints the information about the instance of the object." alt="" coords="5,5,200,47"/>
+</map>

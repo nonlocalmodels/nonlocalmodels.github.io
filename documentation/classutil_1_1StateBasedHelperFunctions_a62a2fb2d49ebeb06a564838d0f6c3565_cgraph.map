@@ -1,0 +1,11 @@
+<map id="util::StateBasedHelperFunctions::StateBasedHelperFunctions" name="util::StateBasedHelperFunctions::StateBasedHelperFunctions">
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,207,236,248"/>
+<area shape="rect" id="node2" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="284,119,515,160"/>
+<area shape="rect" id="node4" href="$classdata_1_1DataManager.html#af27bebcc8dfdc726e13dc4b87fe18c74" title=" " alt="" coords="563,5,718,47"/>
+<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#a15d5fd53a073ca3c01daf32ff4c7a783" title="Get the pointer to nodes data." alt="" coords="563,202,719,229"/>
+<area shape="rect" id="node7" href="$classdata_1_1DataManager.html#a4356cf7f1e46e904f0ec14d8e9d012e0" title=" " alt="" coords="322,236,477,277"/>
+<area shape="rect" id="node8" href="$classdata_1_1DataManager.html#acd934f09c1c7ec39354148884cf6bd1c" title=" " alt="" coords="322,301,477,343"/>
+<area shape="rect" id="node9" href="$classdata_1_1DataManager.html#a3b4742e509a838a48a6ac5e827138b03" title=" " alt="" coords="322,367,477,408"/>
+<area shape="rect" id="node3" href="$classdata_1_1DataManager.html#a8b13fd0311babbf3d11f2afc0f81088d" title=" " alt="" coords="563,71,718,112"/>
+<area shape="rect" id="node6" href="$classdata_1_1DataManager.html#ac9f820790aeccdc4df90df92c1a2ee58" title=" " alt="" coords="563,136,718,177"/>
+</map>
