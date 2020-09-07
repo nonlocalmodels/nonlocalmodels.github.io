@@ -1,30 +1,39 @@
 <map id="tools::pp::Compute" name="tools::pp::Compute">
-<area shape="rect" id="node1" title="Processes simulation results and computes postprocessing quantities." alt="" coords="747,2376,990,3289"/>
-<area shape="rect" id="node2" href="$structinp_1_1MaterialDeck.html" title="Structure to read and store material related data." alt="" coords="2932,732,3208,1029"/>
-<area shape="rect" id="node9" href="$classinp_1_1Input.html" title="A class to read input file." alt="" coords="1466,1261,1666,2145"/>
-<area shape="rect" id="node3" href="$structinp_1_1MatData.html" title="Structure for elastic properties and fracture properties." alt="" coords="3002,5,3138,655"/>
-<area shape="rect" id="node4" href="$classfe_1_1Mesh.html" title="A class for mesh data." alt="" coords="3193,1092,3373,2313"/>
-<area shape="rect" id="node5" href="$structinp_1_1FractureDeck.html" title="Structure to read and store fracture related input data." alt="" coords="103,827,239,934"/>
-<area shape="rect" id="node6" href="$classgeometry_1_1Fracture.html" title="A class for fracture state of bonds." alt="" coords="214,1605,422,1800"/>
-<area shape="rect" id="node7" href="$structinp_1_1OutputDeck.html" title="Structure to read input data for performing simulation output." alt="" coords="353,747,523,1015"/>
-<area shape="rect" id="node8" href="$structinp_1_1ModelDeck.html" title="Structure to read and store model related input data." alt="" coords="547,754,734,1007"/>
-<area shape="rect" id="node10" href="$structinp_1_1AbsorbingCondDeck.html" title="Structure to read and store mesh related input data." alt="" coords="2159,798,2349,963"/>
-<area shape="rect" id="node11" href="$structinp_1_1NeighborDeck.html" title="Structure to read and store neighbor list related input data." alt="" coords="758,820,915,941"/>
-<area shape="rect" id="node22" href="$classgeometry_1_1Neighbor.html" title="A class to store neighbor list and provide access to the list." alt="" coords="786,1605,951,1800"/>
-<area shape="rect" id="node12" href="$structinp_1_1MassMatrixDeck.html" title="Structure to read and store mass matrix related input data." alt="" coords="2373,827,2532,934"/>
-<area shape="rect" id="node13" href="$structinp_1_1PolicyDeck.html" title="Structure to read and store policy related input data." alt="" coords="2557,820,2751,941"/>
-<area shape="rect" id="node14" href="$structinp_1_1SolverDeck.html" title="Structure to read and store solver related input data." alt="" coords="2776,805,2908,956"/>
-<area shape="rect" id="node15" href="$structinp_1_1QuadratureDeck.html" title="Structure to read and store quadrature point related input data." alt="" coords="940,820,1096,941"/>
-<area shape="rect" id="node16" href="$structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="1121,783,1369,978"/>
-<area shape="rect" id="node17" href="$structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="1393,820,1528,941"/>
-<area shape="rect" id="node18" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="1553,805,1771,956"/>
-<area shape="rect" id="node19" href="$structinp_1_1InitialConditionDeck.html" title="Structure to read and store policy data." alt="" coords="1796,827,1979,934"/>
-<area shape="rect" id="node20" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="1837,262,1938,398"/>
-<area shape="rect" id="node21" href="$structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="2003,820,2134,941"/>
-<area shape="rect" id="node23" href="$structtools_1_1pp_1_1InstructionData.html" title="Datatype to hold instructions for postprocessing operation." alt="" coords="3547,1598,3734,1807"/>
-<area shape="rect" id="node24" href="$structtools_1_1pp_1_1TransformU.html" title="Data for transforming displacement operation." alt="" coords="3899,842,4060,919"/>
-<area shape="rect" id="node25" href="$structtools_1_1pp_1_1ComputeJIntegral.html" title="Data for J integral calculation computation." alt="" coords="4084,754,4283,1007"/>
-<area shape="rect" id="node26" href="$structtools_1_1pp_1_1ComputeStrain.html" title="Data for strain and its magnitude computation operation." alt="" coords="3233,820,3417,941"/>
-<area shape="rect" id="node27" href="$structtools_1_1pp_1_1FindCrackTip.html" title="Data for crack tip computation." alt="" coords="3441,791,3611,971"/>
-<area shape="rect" id="node28" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetrizing of velocity operation." alt="" coords="3636,776,3875,985"/>
+<area shape="rect" id="node1" title="Processes simulation results and computes postprocessing quantities." alt="" coords="1687,2963,1930,3876"/>
+<area shape="rect" id="node2" href="$structinp_1_1MaterialDeck.html" title="Structure to read and store material related data." alt="" coords="5,1194,281,1491"/>
+<area shape="rect" id="node7" href="$classinp_1_1Input.html" title="A class to read input file." alt="" coords="1709,2016,1909,2900"/>
+<area shape="rect" id="node3" href="$structinp_1_1MatData.html" title="Structure for elastic properties and fracture properties." alt="" coords="75,5,211,655"/>
+<area shape="rect" id="node4" href="$structinp_1_1FractureDeck.html" title="Structure to read and store fracture related input data." alt="" coords="1586,277,1722,383"/>
+<area shape="rect" id="node30" href="$classgeometry_1_1Fracture.html" title="A class for fracture state of bonds." alt="" coords="3214,1245,3422,1440"/>
+<area shape="rect" id="node5" href="$classmaterial_1_1pd_1_1BaseMaterial.html" title="A base class providing methods to compute energy density and force." alt="" coords="1490,2317,1685,2599"/>
+<area shape="rect" id="node6" href="$structinp_1_1OutputDeck.html" title="Structure to read input data for performing simulation output." alt="" coords="2809,1209,2979,1477"/>
+<area shape="rect" id="node21" href="$classdata_1_1DataManager.html" title="Data manager to collect the global simulation data." alt="" coords="3710,2031,3878,2885"/>
+<area shape="rect" id="node8" href="$structinp_1_1AbsorbingCondDeck.html" title="Structure to read and store mesh related input data." alt="" coords="676,1260,867,1425"/>
+<area shape="rect" id="node9" href="$structinp_1_1NeighborDeck.html" title="Structure to read and store neighbor list related input data." alt="" coords="3095,269,3253,391"/>
+<area shape="rect" id="node31" href="$classgeometry_1_1Neighbor.html" title="A class to store neighbor list and provide access to the list." alt="" coords="4138,1245,4303,1440"/>
+<area shape="rect" id="node10" href="$structinp_1_1MassMatrixDeck.html" title="Structure to read and store mass matrix related input data." alt="" coords="891,1289,1049,1396"/>
+<area shape="rect" id="node11" href="$structinp_1_1PolicyDeck.html" title="Structure to read and store policy related input data." alt="" coords="1074,1282,1269,1403"/>
+<area shape="rect" id="node12" href="$structinp_1_1SolverDeck.html" title="Structure to read and store solver related input data." alt="" coords="1293,1267,1425,1418"/>
+<area shape="rect" id="node13" href="$structinp_1_1QuadratureDeck.html" title="Structure to read and store quadrature point related input data." alt="" coords="1449,1282,1605,1403"/>
+<area shape="rect" id="node14" href="$structinp_1_1ModelDeck.html" title="Structure to read and store model related input data." alt="" coords="3003,1216,3190,1469"/>
+<area shape="rect" id="node15" href="$structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="1802,1245,2050,1440"/>
+<area shape="rect" id="node16" href="$structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="2075,1282,2209,1403"/>
+<area shape="rect" id="node17" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="2234,1267,2453,1418"/>
+<area shape="rect" id="node18" href="$structinp_1_1InitialConditionDeck.html" title="Structure to read and store policy data." alt="" coords="305,1289,488,1396"/>
+<area shape="rect" id="node19" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="346,262,447,398"/>
+<area shape="rect" id="node20" href="$structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="2477,1282,2607,1403"/>
+<area shape="rect" id="node22" href="$classloading_1_1FLoading.html" title="A class to apply force boundary condition." alt="" coords="4328,1282,4465,1403"/>
+<area shape="rect" id="node23" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="4415,284,4544,376"/>
+<area shape="rect" id="node24" href="$classloading_1_1ULoading.html" title="A class to apply displacement boundary condition." alt="" coords="4490,1282,4629,1403"/>
+<area shape="rect" id="node25" href="$classgeometry_1_1VolumeCorrection.html" title="A class to to compute the volume correction for state&#45;based models." alt="" coords="3446,1267,3654,1418"/>
+<area shape="rect" id="node26" href="$classutil_1_1StateBasedHelperFunctions.html" title="A class for global methods of state&#45;based material models." alt="" coords="3679,1297,3909,1389"/>
+<area shape="rect" id="node27" href="$classfe_1_1Mesh.html" title="A class for mesh data." alt="" coords="3933,732,4113,1953"/>
+<area shape="rect" id="node28" href="$classgeometry_1_1InteriorFlags.html" title="A class to store interior/exterior flags of node." alt="" coords="4653,1282,4828,1403"/>
+<area shape="rect" id="node29" href="$classgeometry_1_1BaseInterior.html" title="An abstraction class to store interior/exterior flags of node." alt="" coords="4655,247,4826,413"/>
+<area shape="rect" id="node32" href="$structtools_1_1pp_1_1InstructionData.html" title="Datatype to hold instructions for postprocessing operation." alt="" coords="5186,2353,5373,2563"/>
+<area shape="rect" id="node33" href="$structtools_1_1pp_1_1TransformU.html" title="Data for transforming displacement operation." alt="" coords="5311,1304,5472,1381"/>
+<area shape="rect" id="node34" href="$structtools_1_1pp_1_1ComputeJIntegral.html" title="Data for J integral calculation computation." alt="" coords="5496,1216,5695,1469"/>
+<area shape="rect" id="node35" href="$structtools_1_1pp_1_1ComputeStrain.html" title="Data for strain and its magnitude computation operation." alt="" coords="5719,1282,5903,1403"/>
+<area shape="rect" id="node36" href="$structtools_1_1pp_1_1FindCrackTip.html" title="Data for crack tip computation." alt="" coords="4853,1253,5023,1433"/>
+<area shape="rect" id="node37" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetrizing of velocity operation." alt="" coords="5048,1238,5287,1447"/>
 </map>
