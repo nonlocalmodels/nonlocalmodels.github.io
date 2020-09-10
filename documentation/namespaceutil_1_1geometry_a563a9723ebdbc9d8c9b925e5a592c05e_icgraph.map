@@ -1,5 +1,5 @@
 <map id="util::geometry::direction" name="util::geometry::direction">
 <area shape="rect" id="node1" title="Checks if the point C in on the line between A and B." alt="" coords="477,13,656,39"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C interesect." alt="" coords="201,13,429,39"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C intersect." alt="" coords="201,13,429,39"/>
 <area shape="rect" id="node3" href="$classmodel_1_1FDModel.html#aab0b72515440622c2b199d202f890557" title="Validates if there is a reaction force between node i and node j." alt="" coords="5,5,153,47"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="model::FDModel::is_reaction_force" name="model::FDModel::is_reaction_force">
 <area shape="rect" id="node1" title="Validates if there is a reaction force between node i and node j." alt="" coords="5,23,153,65"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C interesect." alt="" coords="201,31,429,57"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C intersect." alt="" coords="201,31,429,57"/>
 <area shape="rect" id="node3" href="$namespaceutil_1_1geometry.html#a563a9723ebdbc9d8c9b925e5a592c05e" title="Checks if the point C in on the line between A and B." alt="" coords="477,5,656,32"/>
 <area shape="rect" id="node4" href="$namespaceutil_1_1geometry.html#aeca03f85a25bff0fce816fc42aac8b3c" title="Checks if the point C in on the between A and B." alt="" coords="485,56,649,83"/>
 </map>

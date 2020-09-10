@@ -23,7 +23,7 @@
 <area shape="rect" id="node19" href="$structinp_1_1QuadratureDeck.html" title="Structure to read and store quadrature point related input data." alt="" coords="2471,1282,2627,1403"/>
 <area shape="rect" id="node20" href="$structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="2651,1245,2899,1440"/>
 <area shape="rect" id="node21" href="$structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="2924,1282,3059,1403"/>
-<area shape="rect" id="node22" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="3083,1267,3302,1418"/>
+<area shape="rect" id="node22" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store input data for interior flags (no&#45;fail region)" alt="" coords="3083,1267,3302,1418"/>
 <area shape="rect" id="node23" href="$structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="859,1282,990,1403"/>
 <area shape="rect" id="node25" href="$classloading_1_1FLoading.html" title="A class to apply force boundary condition." alt="" coords="4780,1282,4917,1403"/>
 <area shape="rect" id="node26" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="4687,284,4816,376"/>

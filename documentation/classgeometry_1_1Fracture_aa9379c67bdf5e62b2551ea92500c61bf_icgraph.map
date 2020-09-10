@@ -1,4 +1,4 @@
 <map id="geometry::Fracture::setBondState" name="geometry::Fracture::setBondState">
 <area shape="rect" id="node1" title="Sets the bond state." alt="" coords="187,5,332,47"/>
-<area shape="rect" id="node2" href="$namespacetest.html#a46f34fecbd424a97d74abf19acf45e84" title="Perform test on Fracture class and check if bitwise functions are working correctly." alt="" coords="5,13,139,39"/>
+<area shape="rect" id="node2" href="$namespacetest.html#a46f34fecbd424a97d74abf19acf45e84" title="Perform test on Fracture class and check if bit&#45;wise functions are working correctly." alt="" coords="5,13,139,39"/>
 </map>

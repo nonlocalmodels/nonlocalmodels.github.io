@@ -1,5 +1,5 @@
 <map id="tools::pp::Compute" name="tools::pp::Compute">
-<area shape="rect" id="node1" title="Processes simulation results and computes postprocessing quantities." alt="" coords="1687,2963,1930,3876"/>
+<area shape="rect" id="node1" title="Processes simulation results and computes post&#45;processing quantities." alt="" coords="1687,2963,1930,3876"/>
 <area shape="rect" id="node2" href="$structinp_1_1MaterialDeck.html" title="Structure to read and store material related data." alt="" coords="5,1194,281,1491"/>
 <area shape="rect" id="node7" href="$classinp_1_1Input.html" title="A class to read input file." alt="" coords="1709,2016,1909,2900"/>
 <area shape="rect" id="node3" href="$structinp_1_1MatData.html" title="Structure for elastic properties and fracture properties." alt="" coords="75,5,211,655"/>
@@ -18,7 +18,7 @@
 <area shape="rect" id="node14" href="$structinp_1_1ModelDeck.html" title="Structure to read and store model related input data." alt="" coords="3003,1216,3190,1469"/>
 <area shape="rect" id="node15" href="$structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="1802,1245,2050,1440"/>
 <area shape="rect" id="node16" href="$structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="2075,1282,2209,1403"/>
-<area shape="rect" id="node17" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="2234,1267,2453,1418"/>
+<area shape="rect" id="node17" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store input data for interior flags (no&#45;fail region)" alt="" coords="2234,1267,2453,1418"/>
 <area shape="rect" id="node18" href="$structinp_1_1InitialConditionDeck.html" title="Structure to read and store policy data." alt="" coords="305,1289,488,1396"/>
 <area shape="rect" id="node19" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="346,262,447,398"/>
 <area shape="rect" id="node20" href="$structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="2477,1282,2607,1403"/>
@@ -30,10 +30,10 @@
 <area shape="rect" id="node27" href="$classfe_1_1Mesh.html" title="A class for mesh data." alt="" coords="3933,732,4113,1953"/>
 <area shape="rect" id="node28" href="$classgeometry_1_1InteriorFlags.html" title="A class to store interior/exterior flags of node." alt="" coords="4653,1282,4828,1403"/>
 <area shape="rect" id="node29" href="$classgeometry_1_1BaseInterior.html" title="An abstraction class to store interior/exterior flags of node." alt="" coords="4655,247,4826,413"/>
-<area shape="rect" id="node32" href="$structtools_1_1pp_1_1InstructionData.html" title="Datatype to hold instructions for postprocessing operation." alt="" coords="5186,2353,5373,2563"/>
+<area shape="rect" id="node32" href="$structtools_1_1pp_1_1InstructionData.html" title="Datatype to hold instructions for post&#45;processing operation." alt="" coords="5186,2353,5373,2563"/>
 <area shape="rect" id="node33" href="$structtools_1_1pp_1_1TransformU.html" title="Data for transforming displacement operation." alt="" coords="5311,1304,5472,1381"/>
 <area shape="rect" id="node34" href="$structtools_1_1pp_1_1ComputeJIntegral.html" title="Data for J integral calculation computation." alt="" coords="5496,1216,5695,1469"/>
 <area shape="rect" id="node35" href="$structtools_1_1pp_1_1ComputeStrain.html" title="Data for strain and its magnitude computation operation." alt="" coords="5719,1282,5903,1403"/>
 <area shape="rect" id="node36" href="$structtools_1_1pp_1_1FindCrackTip.html" title="Data for crack tip computation." alt="" coords="4853,1253,5023,1433"/>
-<area shape="rect" id="node37" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetrizing of velocity operation." alt="" coords="5048,1238,5287,1447"/>
+<area shape="rect" id="node37" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetries of velocity operation." alt="" coords="5048,1238,5287,1447"/>
 </map>

@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$namespaceutil.html#aa3d6d22d633e7042dfbdf97782f2cf4e" title="Computes the determinant of matrix." alt="" coords="536,5,608,32"/>
 <area shape="rect" id="node4" href="$namespaceutil.html#ad4f18aba6f461c113b723df12cdaf685" title="Computes the determinant of matrix." alt="" coords="342,56,413,83"/>
 <area shape="rect" id="node8" href="$namespaceutil.html#af081eb7d4934835d9c45b39b025ef5c9" title="Computes the dot product between matrix and vector." alt="" coords="341,107,413,133"/>
-<area shape="rect" id="node10" href="$namespaceutil.html#a3ea982d234156e852f2333a3c4e2931e" title="Computes the tranpose of matrix." alt="" coords="515,157,629,184"/>
+<area shape="rect" id="node10" href="$namespaceutil.html#a3ea982d234156e852f2333a3c4e2931e" title="Computes the transpose of matrix." alt="" coords="515,157,629,184"/>
 <area shape="rect" id="node3" href="$classfe_1_1TetElem.html#ae48a1a662b412f57fcdb689ef26abeb1" title="Computes the Jacobian of map ." alt="" coords="288,5,467,32"/>
 <area shape="rect" id="node5" href="$classfe_1_1TetElem.html#a9b945d960dbf453968a1785741b8d66c" title="Returns the values of derivative of shape function at point p." alt="" coords="25,31,220,57"/>
 <area shape="rect" id="node6" href="$classfe_1_1TetElem.html#acf2316070778994bb2ad5240d1dd7609" title="Get vector of quadrature data." alt="" coords="25,81,221,108"/>

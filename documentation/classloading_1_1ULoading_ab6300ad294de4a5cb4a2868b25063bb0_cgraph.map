@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="452,136,629,177"/>
 <area shape="rect" id="node4" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="231,246,373,273"/>
 <area shape="rect" id="node5" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="213,297,391,323"/>
-<area shape="rect" id="node6" href="$namespaceutil_1_1geometry.html#ae709286ad690e1071200483b067ef95e" title="Checks if the point A is within the circle with the center and the radisu." alt="" coords="213,348,391,389"/>
+<area shape="rect" id="node6" href="$namespaceutil_1_1geometry.html#ae709286ad690e1071200483b067ef95e" title="Checks if the point A is within the circle with the center and the radius." alt="" coords="213,348,391,389"/>
 <area shape="rect" id="node7" href="$namespaceutil_1_1geometry.html#ac45d600585563c36262e22a9ce365c03" title="Checks if point is inside an angled rectangle." alt="" coords="200,12,404,53"/>
 <area shape="rect" id="node9" href="$namespaceutil_1_1geometry.html#aeb284531388e5db9935af0a0df93289e" title="Checks if point is inside a rectangle." alt="" coords="200,129,404,171"/>
 <area shape="rect" id="node10" href="$classfe_1_1Mesh.html#acf62a896d29193b1db9f2039144857a9" title="Set nodal fixity masks." alt="" coords="231,414,373,441"/>

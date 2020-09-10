@@ -134,7 +134,7 @@ Collaboration diagram for model::FDModel&lt; T &gt;:</div>
 <area shape="rect" href="structinp_1_1QuadratureDeck.html" title="Structure to read and store quadrature point related input data." alt="" coords="2471,1282,2627,1403"/>
 <area shape="rect" href="structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="2651,1245,2899,1440"/>
 <area shape="rect" href="structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="2924,1282,3059,1403"/>
-<area shape="rect" href="structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="3083,1267,3302,1418"/>
+<area shape="rect" href="structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store input data for interior flags (no&#45;fail region)" alt="" coords="3083,1267,3302,1418"/>
 <area shape="rect" href="structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="859,1282,990,1403"/>
 <area shape="rect" href="classloading_1_1FLoading.html" title="A class to apply force boundary condition." alt="" coords="4780,1282,4917,1403"/>
 <area shape="rect" href="classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="4687,284,4816,376"/>
@@ -352,7 +352,7 @@ template&lt;class T &gt; </div>
 
 <p>Checks if output frequency is to be modified. </p>
 <ol type="1">
-<li>If valid criteria is specified, this method modifes the current output interval to new output interval.</li>
+<li>If valid criteria is specified, this method modifies the current output interval to new output interval.</li>
 <li>This is useful when we require snapshot of simulation at small intervals only when results are interesting. For example, for crack propagation problem, we need more snapshots of simulation during time when the crack is propagating. We do not need many snapshots of time when crack is not growing or moving.</li>
 <li>Currently we have implemented <code>max_Z</code> criteria which checks the maximum value of damage at nodes. If maximum value exceeds the user specified value, we change the output interval to small value as specified by user . Until maximum of damage touches value given by user, the code produces output at larger interval.</li>
 <li>We next discuss the naming of output files. We will take the smaller output interval as a basis for naming the output files. Let us look at simple example:<ul>
@@ -539,7 +539,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="classmodel_1_1FDModel_aab0b72515440622c2b199d202f890557_cgraph.png" border="0" usemap="#classmodel_1_1FDModel_aab0b72515440622c2b199d202f890557_cgraph" alt=""/></div>
 <map name="classmodel_1_1FDModel_aab0b72515440622c2b199d202f890557_cgraph" id="classmodel_1_1FDModel_aab0b72515440622c2b199d202f890557_cgraph">
 <area shape="rect" title="Validates if there is a reaction force between node i and node j." alt="" coords="5,23,153,65"/>
-<area shape="rect" href="namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C interesect." alt="" coords="201,31,429,57"/>
+<area shape="rect" href="namespaceutil_1_1geometry.html#a0a0162c49acda40d88edbd2ac953fca7" title="Checks if the two lines between A and B and between C and C intersect." alt="" coords="201,31,429,57"/>
 <area shape="rect" href="namespaceutil_1_1geometry.html#a563a9723ebdbc9d8c9b925e5a592c05e" title="Checks if the point C in on the line between A and B." alt="" coords="477,5,656,32"/>
 <area shape="rect" href="namespaceutil_1_1geometry.html#aeca03f85a25bff0fce816fc42aac8b3c" title="Checks if the point C in on the between A and B." alt="" coords="485,56,649,83"/>
 </map>

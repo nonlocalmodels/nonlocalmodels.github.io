@@ -1,8 +1,8 @@
 <map id="tools::pp::InstructionData" name="tools::pp::InstructionData">
-<area shape="rect" id="node1" title="Datatype to hold instructions for postprocessing operation." alt="" coords="413,321,599,531"/>
+<area shape="rect" id="node1" title="Datatype to hold instructions for post&#45;processing operation." alt="" coords="413,321,599,531"/>
 <area shape="rect" id="node2" href="$structtools_1_1pp_1_1TransformU.html" title="Data for transforming displacement operation." alt="" coords="5,93,167,171"/>
 <area shape="rect" id="node3" href="$structtools_1_1pp_1_1ComputeJIntegral.html" title="Data for J integral calculation computation." alt="" coords="191,5,389,259"/>
 <area shape="rect" id="node4" href="$structtools_1_1pp_1_1ComputeStrain.html" title="Data for strain and its magnitude computation operation." alt="" coords="414,71,598,193"/>
 <area shape="rect" id="node5" href="$structtools_1_1pp_1_1FindCrackTip.html" title="Data for crack tip computation." alt="" coords="622,42,793,222"/>
-<area shape="rect" id="node6" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetrizing of velocity operation." alt="" coords="817,27,1056,237"/>
+<area shape="rect" id="node6" href="$structtools_1_1pp_1_1TransformVelocity.html" title="Data for marking and symmetries of velocity operation." alt="" coords="817,27,1056,237"/>
 </map>

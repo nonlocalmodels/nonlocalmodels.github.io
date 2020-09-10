@@ -13,7 +13,7 @@
 <area shape="rect" id="node12" href="$structinp_1_1ModelDeck.html" title="Structure to read and store model related input data." alt="" coords="1795,754,1982,1007"/>
 <area shape="rect" id="node13" href="$structinp_1_1MeshDeck.html" title="Structure to read and store mesh related input data." alt="" coords="2006,783,2254,978"/>
 <area shape="rect" id="node14" href="$structinp_1_1LoadingDeck.html" title="Structure to read and store policy data." alt="" coords="2279,820,2413,941"/>
-<area shape="rect" id="node15" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store inout data for interior flags (no&#45;fail region)" alt="" coords="2438,805,2657,956"/>
+<area shape="rect" id="node15" href="$structinp_1_1InteriorFlagsDeck.html" title="Structure to read and store input data for interior flags (no&#45;fail region)" alt="" coords="2438,805,2657,956"/>
 <area shape="rect" id="node16" href="$structinp_1_1InitialConditionDeck.html" title="Structure to read and store policy data." alt="" coords="2681,827,2864,934"/>
 <area shape="rect" id="node17" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="2722,262,2823,398"/>
 <area shape="rect" id="node18" href="$structinp_1_1RestartDeck.html" title="Structure to read and store restart related data input." alt="" coords="2889,820,3019,941"/>
