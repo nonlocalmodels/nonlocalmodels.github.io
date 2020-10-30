@@ -16,4 +16,4 @@ permalink: /team/
 # Community
 
 
-[![GitHub contributors](https://img.shields.io/github/nonlocalmodels/NLMech.svg)](https://GitHub.com/nonlocalmodels/NLMech/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/nonlocalmodels/NLMech.svg)](https://GitHub.com/nonlocalmodels/NLMech/graphs/contributors/) [![GitHub forks](https://img.shields.io/github/forks/nonlocalmodels/NLMech.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/nonlocalmodels/NLMech/network/) [![GitHub followers](https://img.shields.io/github/followers/nonlocalmodels.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/nonlocalmodels?tab=followers) [![GitHub watchers](https://img.shields.io/github/watchers/nonlocalmodels/NLMech.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/nonlocalmodels/NLMech/watchers/) [![GitHub stars](https://img.shields.io/github/stars/nonlocalmodels/NLMech.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/nonlocalmodels/NLMech/stargazers/)
