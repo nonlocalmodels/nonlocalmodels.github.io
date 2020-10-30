@@ -1,5 +1,5 @@
 <map id="util::methods::max" name="util::methods::max">
-<area shape="rect" id="node1" title="Returns the maximum from list of data." alt="" coords="272,46,417,73"/>
-<area shape="rect" id="node2" href="$classmodel_1_1FDModel.html#a0bc31f39b370762db87e7bf2d2c0c3ba" title="Checks if output frequency is to be modified." alt="" coords="5,5,224,47"/>
-<area shape="rect" id="node3" href="$classtools_1_1pp_1_1Compute.html#ac76d08a5c77f80f1719b3c96302b2085" title="Updates crack tip location and crack velocity." alt="" coords="42,71,187,112"/>
+<area shape="rect" id="node1" title="Returns the maximum from list of data." alt="" coords="253,46,384,73"/>
+<area shape="rect" id="node2" href="$classmodel_1_1FDModel.html#a0bc31f39b370762db87e7bf2d2c0c3ba" title="Checks if output frequency is to be modified." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node3" href="$classtools_1_1pp_1_1Compute.html#ac76d08a5c77f80f1719b3c96302b2085" title="Updates crack tip location and crack velocity." alt="" coords="39,71,172,112"/>
 </map>

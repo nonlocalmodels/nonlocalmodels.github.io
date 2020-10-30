@@ -1,4 +1,4 @@
 <map id="material::pd::ElasticState::getStress" name="material::pd::ElasticState::getStress">
-<area shape="rect" id="node1" title="Computes the stress tensor for one node." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a798ce7e6591f58630bf68c12ba81b01e" title="Converts the point to an blaze vector." alt="" coords="240,13,395,39"/>
+<area shape="rect" id="node1" title="Computes the stress tensor for one node." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a798ce7e6591f58630bf68c12ba81b01e" title="Converts the point to an blaze vector." alt="" coords="223,13,363,39"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="fe::TriElem::printStr" name="fe::TriElem::printStr">
-<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="183,5,329,32"/>
-<area shape="rect" id="node2" href="$classfe_1_1TriElem.html#a6fb34c3a0a5e41dfdcf5919c7c0a51a3" title="Prints the information about the instance of the object." alt="" coords="5,5,135,32"/>
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="172,5,307,32"/>
+<area shape="rect" id="node2" href="$classfe_1_1TriElem.html#a6fb34c3a0a5e41dfdcf5919c7c0a51a3" title="Prints the information about the instance of the object." alt="" coords="5,5,124,32"/>
 </map>

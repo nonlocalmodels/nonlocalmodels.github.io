@@ -1,4 +1,4 @@
 <map id="data::DataManager::printStr" name="data::DataManager::printStr">
-<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="208,5,363,47"/>
-<area shape="rect" id="node2" href="$classdata_1_1DataManager.html#a624b9936d897b06cb66cc938ac2f8e2a" title="Prints the information about the instance of the object." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="193,5,333,47"/>
+<area shape="rect" id="node2" href="$classdata_1_1DataManager.html#a624b9936d897b06cb66cc938ac2f8e2a" title="Prints the information about the instance of the object." alt="" coords="5,5,145,47"/>
 </map>

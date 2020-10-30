@@ -1,4 +1,4 @@
 <map id="util::function::linearStepFunc" name="util::function::linearStepFunc">
-<area shape="rect" id="node1" title="Compute linear step function." alt="" coords="5,13,213,39"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="261,5,439,47"/>
+<area shape="rect" id="node1" title="Compute linear step function." alt="" coords="5,13,193,39"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="241,5,399,47"/>
 </map>

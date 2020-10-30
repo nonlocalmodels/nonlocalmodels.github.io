@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classgeometry_1_1BaseInterior.html" title="An abstraction class to store interior/exterior flags of node." alt="" coords="5,31,176,57"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1ComputeInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="224,5,423,32"/>
-<area shape="rect" id="node3" href="$classgeometry_1_1DataInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="238,56,409,83"/>
+<area shape="rect" id="node1" href="$classgeometry_1_1BaseInterior.html" title="An abstraction class to store interior/exterior flags of node." alt="" coords="5,31,160,57"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1ComputeInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="208,5,385,32"/>
+<area shape="rect" id="node3" href="$classgeometry_1_1DataInterior.html" title="A class to check if the node is in interior or exterior." alt="" coords="221,56,372,83"/>
 </map>

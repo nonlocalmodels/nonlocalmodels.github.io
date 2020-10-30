@@ -1,7 +1,7 @@
 <map id="tools::mesh::fe2D" name="tools::mesh::fe2D">
-<area shape="rect" id="node1" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,56,143,83"/>
-<area shape="rect" id="node2" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="191,5,393,32"/>
-<area shape="rect" id="node4" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="206,56,378,83"/>
-<area shape="rect" id="node5" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="191,107,393,133"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="441,49,619,90"/>
+<area shape="rect" id="node1" title="Generates uniform mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,56,132,83"/>
+<area shape="rect" id="node2" href="$namespacetools_1_1mesh.html#a60bcb6e9910bf43b054d530860ddfc76" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="180,5,363,32"/>
+<area shape="rect" id="node4" href="$namespacetools_1_1mesh.html#adcc239e43b9387e41d1452a7329b01ef" title="Generates uniform triangular mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="194,56,349,83"/>
+<area shape="rect" id="node5" href="$namespacetools_1_1mesh.html#a0b15298fff784eb36b909cafd66723a3" title="Generates uniform symmetric triangular mesh in 2&#45;d and writes the data to files specified in input fi..." alt="" coords="180,107,363,133"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="411,49,568,90"/>
 </map>

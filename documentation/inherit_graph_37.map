@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmodel_1_1Model.html" title="A base class for different model implementation." alt="" coords="5,31,116,57"/>
-<area shape="rect" id="node2" href="$classmodel_1_1FDModel.html" title="A class for finite difference approximation of Peridynamics" alt="" coords="192,5,359,32"/>
-<area shape="rect" id="node3" href="$classmodel_1_1QuasiStaticModel.html" title="A class for finite difference approximation of Peridynamics" alt="" coords="164,56,387,83"/>
+<area shape="rect" id="node1" href="$classmodel_1_1Model.html" title="A base class for different model implementation." alt="" coords="5,31,105,57"/>
+<area shape="rect" id="node2" href="$classmodel_1_1FDModel.html" title="A class for finite difference approximation of Peridynamics" alt="" coords="178,5,329,32"/>
+<area shape="rect" id="node3" href="$classmodel_1_1QuasiStaticModel.html" title="A class for finite difference approximation of Peridynamics" alt="" coords="153,56,353,83"/>
 </map>

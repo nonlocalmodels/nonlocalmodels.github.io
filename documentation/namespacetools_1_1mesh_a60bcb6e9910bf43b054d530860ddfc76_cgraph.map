@@ -1,4 +1,4 @@
 <map id="tools::mesh::uniformSquare" name="tools::mesh::uniformSquare">
-<area shape="rect" id="node1" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,13,208,39"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="256,5,433,47"/>
+<area shape="rect" id="node1" title="Generates uniform square mesh in 2&#45;d and writes the data to files specified in input filename." alt="" coords="5,13,188,39"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="236,5,393,47"/>
 </map>

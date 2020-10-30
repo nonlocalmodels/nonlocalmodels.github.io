@@ -1,7 +1,7 @@
 <map id="loading::InitialCondition::getICFormula" name="loading::InitialCondition::getICFormula">
-<area shape="rect" id="node1" title="Computes the formula specified by input file." alt="" coords="5,23,183,65"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1function.html#a739d5143c71ea5733c5c8986a770be01" title="Compute sum of two Gaussian function in 2&#45;d." alt="" coords="231,5,463,32"/>
-<area shape="rect" id="node5" href="$namespaceutil_1_1function.html#a91d7258b82d5fa7ac9718e86f4feef86" title="Compute Gaussian function in 2&#45;d." alt="" coords="253,56,440,83"/>
-<area shape="rect" id="node3" href="$structutil_1_1Point3.html#aaa454f5c0c8c5b4a996d5a84bbe88c60" title="Computes the distance between a given point from this point." alt="" coords="534,5,658,32"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1function.html#a3c6be89cc8a3ef4faeec6fe0dfc80f4b" title="Compute Gaussian function in 1&#45;d." alt="" coords="511,56,681,83"/>
+<area shape="rect" id="node1" title="Computes the formula specified by input file." alt="" coords="5,23,163,65"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1function.html#a739d5143c71ea5733c5c8986a770be01" title="Compute sum of two Gaussian function in 2&#45;d." alt="" coords="211,5,419,32"/>
+<area shape="rect" id="node5" href="$namespaceutil_1_1function.html#a91d7258b82d5fa7ac9718e86f4feef86" title="Compute Gaussian function in 2&#45;d." alt="" coords="231,56,398,83"/>
+<area shape="rect" id="node3" href="$structutil_1_1Point3.html#aaa454f5c0c8c5b4a996d5a84bbe88c60" title="Computes the distance between a given point from this point." alt="" coords="487,5,600,32"/>
+<area shape="rect" id="node4" href="$namespaceutil_1_1function.html#a3c6be89cc8a3ef4faeec6fe0dfc80f4b" title="Compute Gaussian function in 1&#45;d." alt="" coords="467,56,620,83"/>
 </map>

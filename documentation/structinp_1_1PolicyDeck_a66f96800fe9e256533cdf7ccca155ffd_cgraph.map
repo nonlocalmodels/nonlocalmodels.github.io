@@ -1,5 +1,5 @@
 <map id="inp::PolicyDeck::print" name="inp::PolicyDeck::print">
-<area shape="rect" id="node1" title="Prints the information about the instance of the object." alt="" coords="5,5,165,32"/>
-<area shape="rect" id="node2" href="$structinp_1_1PolicyDeck.html#a3e1f185315e6615d29543f93908ffc21" title="Returns the string containing information about the instance of the object." alt="" coords="213,5,392,32"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="440,5,563,32"/>
+<area shape="rect" id="node1" title="Prints the information about the instance of the object." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$structinp_1_1PolicyDeck.html#a3e1f185315e6615d29543f93908ffc21" title="Returns the string containing information about the instance of the object." alt="" coords="200,5,363,32"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1io.html#a38afb09a152cca4061850f4123bd3aeb" title="Generate a string contaning nt tabs." alt="" coords="411,5,524,32"/>
 </map>

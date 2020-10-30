@@ -1,4 +1,4 @@
 <map id="geometry::VolumeCorrection::weightedVolume" name="geometry::VolumeCorrection::weightedVolume">
-<area shape="rect" id="node1" title="Computes the weighted volume &#160;with &#160;as the influence function for each discrete node." alt="" coords="261,5,469,47"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1VolumeCorrection.html#a6ab0af7ec2ba8084f85d8c94bd32cacb" title="Constructor." alt="" coords="5,5,213,47"/>
+<area shape="rect" id="node1" title="Computes the weighted volume &#160;with &#160;as the influence function for each discrete node." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1VolumeCorrection.html#a6ab0af7ec2ba8084f85d8c94bd32cacb" title="Constructor." alt="" coords="5,5,192,47"/>
 </map>

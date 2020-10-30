@@ -1,8 +1,8 @@
 <map id="util::Point3::dot" name="util::Point3::dot">
-<area shape="rect" id="node1" title="Computes the dot product of this vector with another point." alt="" coords="247,153,368,180"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a4d1ce7df6b902a1b374c89f4d1a2f69d" title="Computes angle between two vectors." alt="" coords="23,29,181,56"/>
-<area shape="rect" id="node3" href="$classtools_1_1pp_1_1Compute.html#add3d16f70172ef6a1dedad2a34981077" title="Computes contribution to energy into crack from the quadrature point on contour." alt="" coords="17,81,187,122"/>
-<area shape="rect" id="node4" href="$classmaterial_1_1pd_1_1RNPBond.html#a02daeab156bedd9b0202de5ad09329de" title="Returns the bond strain." alt="" coords="17,146,187,187"/>
-<area shape="rect" id="node5" href="$structutil_1_1Point3.html#aa2561b1df18e2495312e0130570cc387" title="Computes projection of vector on this vector." alt="" coords="29,212,175,239"/>
-<area shape="rect" id="node6" href="$structutil_1_1Point3.html#a6548eebed3faccfd2f74277a141609cc" title="Computes projection of vector on plane with normal as this vector." alt="" coords="5,263,199,289"/>
+<area shape="rect" id="node1" title="Computes the dot product of this vector with another point." alt="" coords="227,153,337,180"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a4d1ce7df6b902a1b374c89f4d1a2f69d" title="Computes angle between two vectors." alt="" coords="22,29,162,56"/>
+<area shape="rect" id="node3" href="$classtools_1_1pp_1_1Compute.html#add3d16f70172ef6a1dedad2a34981077" title="Computes contribution to energy into crack from the quadrature point on contour." alt="" coords="13,81,171,122"/>
+<area shape="rect" id="node4" href="$classmaterial_1_1pd_1_1RNPBond.html#a02daeab156bedd9b0202de5ad09329de" title="Returns the bond strain." alt="" coords="13,146,171,187"/>
+<area shape="rect" id="node5" href="$structutil_1_1Point3.html#aa2561b1df18e2495312e0130570cc387" title="Computes projection of vector on this vector." alt="" coords="27,212,157,239"/>
+<area shape="rect" id="node6" href="$structutil_1_1Point3.html#a6548eebed3faccfd2f74277a141609cc" title="Computes projection of vector on plane with normal as this vector." alt="" coords="5,263,179,289"/>
 </map>

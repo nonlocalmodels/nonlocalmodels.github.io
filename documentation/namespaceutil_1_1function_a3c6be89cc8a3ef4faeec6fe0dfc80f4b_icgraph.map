@@ -1,6 +1,6 @@
 <map id="util::function::gaussian" name="util::function::gaussian">
-<area shape="rect" id="node1" title="Compute Gaussian function in 1&#45;d." alt="" coords="511,31,681,57"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1function.html#a739d5143c71ea5733c5c8986a770be01" title="Compute sum of two Gaussian function in 2&#45;d." alt="" coords="231,5,463,32"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1function.html#a91d7258b82d5fa7ac9718e86f4feef86" title="Compute Gaussian function in 2&#45;d." alt="" coords="253,56,440,83"/>
-<area shape="rect" id="node3" href="$classloading_1_1InitialCondition.html#ab7188e3d5b21489d508675a98dd8701d" title="Computes the formula specified by input file." alt="" coords="5,23,183,65"/>
+<area shape="rect" id="node1" title="Compute Gaussian function in 1&#45;d." alt="" coords="467,31,620,57"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1function.html#a739d5143c71ea5733c5c8986a770be01" title="Compute sum of two Gaussian function in 2&#45;d." alt="" coords="211,5,419,32"/>
+<area shape="rect" id="node4" href="$namespaceutil_1_1function.html#a91d7258b82d5fa7ac9718e86f4feef86" title="Compute Gaussian function in 2&#45;d." alt="" coords="231,56,398,83"/>
+<area shape="rect" id="node3" href="$classloading_1_1InitialCondition.html#ab7188e3d5b21489d508675a98dd8701d" title="Computes the formula specified by input file." alt="" coords="5,23,163,65"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="geometry::DampingGeom::computeDampingCoefficient" name="geometry::DampingGeom::computeDampingCoefficient">
-<area shape="rect" id="node1" title="Compute damping coefficients at nodal coordinates." alt="" coords="5,94,221,135"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="521,6,699,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="521,118,699,159"/>
-<area shape="rect" id="node4" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="301,101,442,128"/>
-<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="282,152,461,178"/>
-<area shape="rect" id="node6" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="269,35,473,76"/>
+<area shape="rect" id="node1" title="Compute damping coefficients at nodal coordinates." alt="" coords="5,93,199,135"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="479,5,636,47"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="479,117,636,159"/>
+<area shape="rect" id="node4" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="273,101,404,127"/>
+<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="256,151,421,178"/>
+<area shape="rect" id="node6" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="247,35,431,76"/>
 </map>

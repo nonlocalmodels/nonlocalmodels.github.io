@@ -1,4 +1,4 @@
 <map id="inp::FractureDeck::printStr" name="inp::FractureDeck::printStr">
-<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="197,5,341,47"/>
-<area shape="rect" id="node2" href="$structinp_1_1FractureDeck.html#accbecb0d057791c01f9c13deb1143ee4" title="Prints the information about the instance of the object." alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="187,5,320,47"/>
+<area shape="rect" id="node2" href="$structinp_1_1FractureDeck.html#accbecb0d057791c01f9c13deb1143ee4" title="Prints the information about the instance of the object." alt="" coords="5,5,139,47"/>
 </map>

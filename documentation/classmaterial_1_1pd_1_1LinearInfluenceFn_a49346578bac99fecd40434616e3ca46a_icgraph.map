@@ -1,5 +1,5 @@
 <map id="material::pd::LinearInfluenceFn::getMoment" name="material::pd::LinearInfluenceFn::getMoment">
-<area shape="rect" id="node1" title="Returns the moment of influence function." alt="" coords="517,5,725,47"/>
-<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1LinearInfluenceFn.html#a8ba7bb1c98ba6c021e2ce8383163fe6c" title="Returns the string containing information about the instance of the object." alt="" coords="261,5,469,47"/>
-<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1LinearInfluenceFn.html#ac38061ee88fbf2ca3c895c6aef93bfd4" title="Prints the information about the instance of the object." alt="" coords="5,5,213,47"/>
+<area shape="rect" id="node1" title="Returns the moment of influence function." alt="" coords="475,5,661,47"/>
+<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1LinearInfluenceFn.html#a8ba7bb1c98ba6c021e2ce8383163fe6c" title="Returns the string containing information about the instance of the object." alt="" coords="240,5,427,47"/>
+<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1LinearInfluenceFn.html#ac38061ee88fbf2ca3c895c6aef93bfd4" title="Prints the information about the instance of the object." alt="" coords="5,5,192,47"/>
 </map>

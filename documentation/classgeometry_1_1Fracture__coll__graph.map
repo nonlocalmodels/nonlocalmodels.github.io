@@ -1,4 +1,4 @@
 <map id="geometry::Fracture" name="geometry::Fracture">
-<area shape="rect" id="node1" title="A class for fracture state of bonds." alt="" coords="5,175,213,369"/>
-<area shape="rect" id="node2" href="$structinp_1_1FractureDeck.html" title="Structure to read and store fracture related input data." alt="" coords="41,5,177,112"/>
+<area shape="rect" id="node1" title="A class for fracture state of bonds." alt="" coords="5,175,193,369"/>
+<area shape="rect" id="node2" href="$structinp_1_1FractureDeck.html" title="Structure to read and store fracture related input data." alt="" coords="36,5,163,112"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="util::function::hatFunctionQuick" name="util::function::hatFunctionQuick">
-<area shape="rect" id="node1" title="Computes hat function at given point." alt="" coords="5,5,193,47"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="241,5,419,47"/>
+<area shape="rect" id="node1" title="Computes hat function at given point." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="223,5,380,47"/>
 </map>

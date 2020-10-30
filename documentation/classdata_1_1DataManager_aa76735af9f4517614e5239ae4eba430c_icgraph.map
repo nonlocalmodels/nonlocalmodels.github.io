@@ -1,4 +1,4 @@
 <map id="data::DataManager::getStressTensorP" name="data::DataManager::getStressTensorP">
-<area shape="rect" id="node1" title=" " alt="" coords="220,5,375,47"/>
-<area shape="rect" id="node2" href="$classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c" title="Outputs the iteration d_n to the file system." alt="" coords="5,13,172,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="204,5,344,47"/>
+<area shape="rect" id="node2" href="$classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c" title="Outputs the iteration d_n to the file system." alt="" coords="5,13,156,39"/>
 </map>

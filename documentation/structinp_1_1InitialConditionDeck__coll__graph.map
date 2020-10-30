@@ -1,4 +1,4 @@
 <map id="inp::InitialConditionDeck" name="inp::InitialConditionDeck">
-<area shape="rect" id="node1" title="Structure to read and store policy data." alt="" coords="5,219,188,325"/>
-<area shape="rect" id="node2" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="46,5,147,141"/>
+<area shape="rect" id="node1" title="Structure to read and store policy data." alt="" coords="5,219,169,325"/>
+<area shape="rect" id="node2" href="$structinp_1_1ICData.html" title="Structure to store initial condition input data." alt="" coords="42,5,133,141"/>
 </map>

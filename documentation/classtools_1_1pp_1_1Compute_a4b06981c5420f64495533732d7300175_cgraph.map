@@ -1,5 +1,5 @@
 <map id="tools::pp::Compute::findNode" name="tools::pp::Compute::findNode">
-<area shape="rect" id="node1" title="Find node closest to given point." alt="" coords="5,35,151,76"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="199,5,376,47"/>
-<area shape="rect" id="node3" href="$structutil_1_1Point3.html#aaa454f5c0c8c5b4a996d5a84bbe88c60" title="Computes the distance between a given point from this point." alt="" coords="225,71,349,98"/>
+<area shape="rect" id="node1" title="Find node closest to given point." alt="" coords="5,35,139,76"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="187,5,344,47"/>
+<area shape="rect" id="node3" href="$structutil_1_1Point3.html#aaa454f5c0c8c5b4a996d5a84bbe88c60" title="Computes the distance between a given point from this point." alt="" coords="209,71,322,98"/>
 </map>

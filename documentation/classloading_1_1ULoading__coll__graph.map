@@ -1,4 +1,4 @@
 <map id="loading::ULoading" name="loading::ULoading">
-<area shape="rect" id="node1" title="A class to apply displacement boundary condition." alt="" coords="5,145,144,267"/>
-<area shape="rect" id="node2" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="10,5,139,97"/>
+<area shape="rect" id="node1" title="A class to apply displacement boundary condition." alt="" coords="5,145,132,267"/>
+<area shape="rect" id="node2" href="$classloading_1_1Loading.html" title="A base class to apply displacement and force boundary condition." alt="" coords="11,5,127,97"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="util::geometry::getCenterAndVol" name="util::geometry::getCenterAndVol">
-<area shape="rect" id="node1" title="Computes the centroid and volume of element." alt="" coords="5,23,191,65"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a34067ba7b7a58a56e30ca0e79135a1be" title="Computes the volume of tetrahedron." alt="" coords="245,5,455,32"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1geometry.html#af40d00fb60b13c53e603c5f7871fc313" title="Computes the area of triangle." alt="" coords="239,56,461,83"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1function.html#ad18e25eeac17b226a18ffcd580fa6a76" title="Get determinant of 3&#45;d matrix." alt="" coords="509,5,724,32"/>
+<area shape="rect" id="node1" title="Computes the centroid and volume of element." alt="" coords="5,23,172,65"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1geometry.html#a34067ba7b7a58a56e30ca0e79135a1be" title="Computes the volume of tetrahedron." alt="" coords="225,5,413,32"/>
+<area shape="rect" id="node4" href="$namespaceutil_1_1geometry.html#af40d00fb60b13c53e603c5f7871fc313" title="Computes the area of triangle." alt="" coords="220,56,419,83"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1function.html#ad18e25eeac17b226a18ffcd580fa6a76" title="Get determinant of 3&#45;d matrix." alt="" coords="467,5,657,32"/>
 </map>

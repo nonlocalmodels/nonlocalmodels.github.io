@@ -1,5 +1,5 @@
 <map id="fe::LineElem::mapPointToRefElem" name="fe::LineElem::mapPointToRefElem">
-<area shape="rect" id="node1" title="Maps point p in a given element to the reference element." alt="" coords="5,39,192,80"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="240,5,417,47"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="240,71,417,112"/>
+<area shape="rect" id="node1" title="Maps point p in a given element to the reference element." alt="" coords="5,39,177,80"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="225,5,383,47"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="225,71,383,112"/>
 </map>

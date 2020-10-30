@@ -1,5 +1,5 @@
 <map id="material::pd::GaussianInfluenceFn::getMoment" name="material::pd::GaussianInfluenceFn::getMoment">
-<area shape="rect" id="node1" title="Returns the moment of influence function." alt="" coords="557,5,785,47"/>
-<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1GaussianInfluenceFn.html#a8784197b8f1faa0a9d978f67838d8a61" title="Returns the string containing information about the instance of the object." alt="" coords="281,5,509,47"/>
-<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1GaussianInfluenceFn.html#a2fd812e67b1a9ef4b5bb68a5bdc5c8fd" title="Prints the information about the instance of the object." alt="" coords="5,5,233,47"/>
+<area shape="rect" id="node1" title="Returns the moment of influence function." alt="" coords="515,5,721,47"/>
+<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1GaussianInfluenceFn.html#a8784197b8f1faa0a9d978f67838d8a61" title="Returns the string containing information about the instance of the object." alt="" coords="260,5,467,47"/>
+<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1GaussianInfluenceFn.html#a2fd812e67b1a9ef4b5bb68a5bdc5c8fd" title="Prints the information about the instance of the object." alt="" coords="5,5,212,47"/>
 </map>

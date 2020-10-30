@@ -1,4 +1,4 @@
 <map id="material::pd::ElasticState::getBondForceDirection" name="material::pd::ElasticState::getBondForceDirection">
-<area shape="rect" id="node1" title="Get direction of bond force." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="240,13,381,39"/>
+<area shape="rect" id="node1" title="Get direction of bond force." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="223,13,349,39"/>
 </map>

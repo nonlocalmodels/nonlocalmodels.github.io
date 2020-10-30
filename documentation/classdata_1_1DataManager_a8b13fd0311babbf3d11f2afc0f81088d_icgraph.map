@@ -1,5 +1,5 @@
 <map id="data::DataManager::getDilatationP" name="data::DataManager::getDilatationP">
-<area shape="rect" id="node1" title=" " alt="" coords="563,5,717,47"/>
-<area shape="rect" id="node2" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="284,5,515,47"/>
-<area shape="rect" id="node3" href="$classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565" title="Constructor." alt="" coords="5,5,236,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="523,5,663,47"/>
+<area shape="rect" id="node2" href="$classutil_1_1StateBasedHelperFunctions.html#a45f612b0719fa86c9b16a2f34c54027b" title="Computes the extension &#160;and dilatation &#160;for each node where $m_i$ is the weighted volume." alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node3" href="$classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565" title="Constructor." alt="" coords="5,5,216,47"/>
 </map>

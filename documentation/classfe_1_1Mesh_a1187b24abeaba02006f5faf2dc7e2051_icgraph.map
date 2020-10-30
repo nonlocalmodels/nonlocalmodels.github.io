@@ -1,4 +1,4 @@
 <map id="fe::Mesh::getBoundingBox" name="fe::Mesh::getBoundingBox">
-<area shape="rect" id="node1" title="Get the bounding box of the mesh." alt="" coords="220,5,413,32"/>
-<area shape="rect" id="node2" href="$classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c" title="Outputs the iteration d_n to the file system." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node1" title="Get the bounding box of the mesh." alt="" coords="204,5,380,32"/>
+<area shape="rect" id="node2" href="$classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c" title="Outputs the iteration d_n to the file system." alt="" coords="5,5,156,32"/>
 </map>

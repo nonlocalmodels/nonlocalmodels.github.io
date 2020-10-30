@@ -1,4 +1,4 @@
 <map id="fe::Mesh::getDimension" name="fe::Mesh::getDimension">
-<area shape="rect" id="node1" title="Get the dimension of the domain." alt="" coords="231,13,408,39"/>
-<area shape="rect" id="node2" href="$classloading_1_1InitialCondition.html#a9b35324b9b0d9a83424f36bb47694976" title="Applies initial condition to displacement and velocity." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node1" title="Get the dimension of the domain." alt="" coords="211,13,372,39"/>
+<area shape="rect" id="node2" href="$classloading_1_1InitialCondition.html#a9b35324b9b0d9a83424f36bb47694976" title="Applies initial condition to displacement and velocity." alt="" coords="5,5,163,47"/>
 </map>

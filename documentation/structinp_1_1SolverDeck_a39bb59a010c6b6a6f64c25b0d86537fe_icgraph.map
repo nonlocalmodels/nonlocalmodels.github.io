@@ -1,4 +1,4 @@
 <map id="inp::SolverDeck::printStr" name="inp::SolverDeck::printStr">
-<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="216,5,396,32"/>
-<area shape="rect" id="node2" href="$structinp_1_1SolverDeck.html#a20cbd8634e5abdd5955ed9cda15d06fb" title="Prints the information about the instance of the object." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node1" title="Returns the string containing information about the instance of the object." alt="" coords="200,5,363,32"/>
+<area shape="rect" id="node2" href="$structinp_1_1SolverDeck.html#a20cbd8634e5abdd5955ed9cda15d06fb" title="Prints the information about the instance of the object." alt="" coords="5,5,152,32"/>
 </map>

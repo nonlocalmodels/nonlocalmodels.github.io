@@ -1,5 +1,5 @@
 <map id="material::pd::BaseMaterial" name="material::pd::BaseMaterial">
-<area shape="rect" id="node1" title="A base class providing methods to compute energy density and force." alt="" coords="120,5,315,288"/>
-<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1ElasticState.html" title="A class implementing the state&#45;based elastic material model." alt="" coords="5,336,200,736"/>
-<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1RNPBond.html" title="A Class implementing regularized nonlinear peridynamic model." alt="" coords="224,343,443,729"/>
+<area shape="rect" id="node1" title="A base class providing methods to compute energy density and force." alt="" coords="109,5,284,288"/>
+<area shape="rect" id="node2" href="$classmaterial_1_1pd_1_1ElasticState.html" title="A class implementing the state&#45;based elastic material model." alt="" coords="5,336,180,736"/>
+<area shape="rect" id="node3" href="$classmaterial_1_1pd_1_1RNPBond.html" title="A Class implementing regularized nonlinear peridynamic model." alt="" coords="205,343,399,729"/>
 </map>

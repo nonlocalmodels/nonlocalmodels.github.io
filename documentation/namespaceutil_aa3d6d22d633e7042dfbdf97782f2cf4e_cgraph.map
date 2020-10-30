@@ -1,4 +1,4 @@
 <map id="util::det" name="util::det">
-<area shape="rect" id="node1" title="Computes the determinant of matrix." alt="" coords="5,5,77,32"/>
-<area shape="rect" id="node2" href="$namespaceutil.html#ae4a8ddcdd832032df5a6dfc33cd95db4" title="Checks matrix." alt="" coords="125,5,256,32"/>
+<area shape="rect" id="node1" title="Computes the determinant of matrix." alt="" coords="5,5,71,32"/>
+<area shape="rect" id="node2" href="$namespaceutil.html#ae4a8ddcdd832032df5a6dfc33cd95db4" title="Checks matrix." alt="" coords="119,5,237,32"/>
 </map>

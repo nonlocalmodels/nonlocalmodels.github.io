@@ -1,4 +1,4 @@
 <map id="util::function::derLinearStepFunc" name="util::function::derLinearStepFunc">
-<area shape="rect" id="node1" title="Compute derivative of linear step function." alt="" coords="5,5,179,47"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="227,5,404,47"/>
+<area shape="rect" id="node1" title="Compute derivative of linear step function." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="208,5,365,47"/>
 </map>

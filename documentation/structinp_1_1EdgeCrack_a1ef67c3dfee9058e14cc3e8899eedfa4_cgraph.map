@@ -1,5 +1,5 @@
 <map id="inp::EdgeCrack::ptRightside" name="inp::EdgeCrack::ptRightside">
-<area shape="rect" id="node1" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="5,13,207,39"/>
-<area shape="rect" id="node2" href="$structinp_1_1EdgeCrack.html#ad4527036d637fd95406b9af55317b409" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="255,13,445,39"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="493,5,671,47"/>
+<area shape="rect" id="node1" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="5,13,191,39"/>
+<area shape="rect" id="node2" href="$structinp_1_1EdgeCrack.html#ad4527036d637fd95406b9af55317b409" title="Checks if point lies on left(top) or right(bottom) of crack." alt="" coords="239,13,415,39"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="463,5,620,47"/>
 </map>

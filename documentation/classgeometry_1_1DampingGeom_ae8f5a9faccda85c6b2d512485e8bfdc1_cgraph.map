@@ -1,9 +1,9 @@
 <map id="geometry::DampingGeom::DampingGeom" name="geometry::DampingGeom::DampingGeom">
-<area shape="rect" id="node1" title="Constructor." alt="" coords="5,160,196,201"/>
-<area shape="rect" id="node2" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="244,120,460,161"/>
-<area shape="rect" id="node6" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="521,218,699,245"/>
-<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="760,5,937,47"/>
-<area shape="rect" id="node4" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="760,84,937,125"/>
-<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="539,167,681,194"/>
-<area shape="rect" id="node7" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="508,51,712,92"/>
+<area shape="rect" id="node1" title="Constructor." alt="" coords="5,160,176,201"/>
+<area shape="rect" id="node2" href="$classgeometry_1_1DampingGeom.html#aacf9e183af3929d530a5a75c34114d42" title="Compute damping coefficients at nodal coordinates." alt="" coords="224,120,417,161"/>
+<area shape="rect" id="node6" href="$classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77" title="Get the number of nodes." alt="" coords="475,218,640,245"/>
+<area shape="rect" id="node3" href="$namespaceutil_1_1compare.html#a01f7d35cb54e6e1274397c07dc843f63" title="Compares if a &gt; to b." alt="" coords="697,5,855,47"/>
+<area shape="rect" id="node4" href="$namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="697,84,855,125"/>
+<area shape="rect" id="node5" href="$classfe_1_1Mesh.html#adeb546cdd4b4a63cda5890787b13b034" title="Get coordinates of node i." alt="" coords="492,167,623,194"/>
+<area shape="rect" id="node7" href="$namespaceutil_1_1geometry.html#a9074704276f992ed2c536edac774b8d9" title="Checks if point is inside a cuboid (rectangle in 2&#45;d, line in 1&#45;d)" alt="" coords="465,51,649,92"/>
 </map>

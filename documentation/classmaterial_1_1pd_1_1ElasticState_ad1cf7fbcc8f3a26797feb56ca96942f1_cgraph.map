@@ -1,5 +1,5 @@
 <map id="material::pd::ElasticState::dirac_delta" name="material::pd::ElasticState::dirac_delta">
-<area shape="rect" id="node1" title="Provide the image of x under the Dirac Delta Function." alt="" coords="5,35,192,76"/>
-<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#aee36cc8b86ae0244f6dd51d9426cd344" title="Compares if a is essentially equal to b." alt="" coords="240,5,427,47"/>
-<area shape="rect" id="node3" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="263,71,404,98"/>
+<area shape="rect" id="node1" title="Provide the image of x under the Dirac Delta Function." alt="" coords="5,35,175,76"/>
+<area shape="rect" id="node2" href="$namespaceutil_1_1compare.html#aee36cc8b86ae0244f6dd51d9426cd344" title="Compares if a is essentially equal to b." alt="" coords="223,5,389,47"/>
+<area shape="rect" id="node3" href="$structutil_1_1Point3.html#a0c01ff20100b99b130d81f38ad93941e" title="Computes the Euclidean length of the vector." alt="" coords="243,71,369,98"/>
 </map>
