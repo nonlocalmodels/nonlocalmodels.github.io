@@ -13,6 +13,10 @@ permalink: /team/
 
 * [Robert Lipton](https://www.math.lsu.edu/~lipton/index.html) <a itemprop="sameAs" content="0000-0002-1382-3204" href="http://orcid.org/0000-0002-1382-3204" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">0000-0002-1382-3204</a> 
 
+# Google Summer of Code contributors
+
+* [Pranav Gadikar](https://www.linkedin.com/in/pranav-gadikar-2a0a21143/)
+
 # Community
 
 
