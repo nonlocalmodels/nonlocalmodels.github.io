@@ -9,6 +9,7 @@ var classrw_1_1writer_1_1LegacyVtkWriter =
     [ "appendMesh", "classrw_1_1writer_1_1LegacyVtkWriter.html#ae24aaafad8dd6937872378aa75b871f1", null ],
     [ "appendNodes", "classrw_1_1writer_1_1LegacyVtkWriter.html#a76e2749793f08df8354c534d68991990", null ],
     [ "appendNodes", "classrw_1_1writer_1_1LegacyVtkWriter.html#a7890e4198db7af2638b221f8d061883a", null ],
+    [ "appendPointData", "classrw_1_1writer_1_1LegacyVtkWriter.html#a551177a631b4b882a121b04c2db90dc2", null ],
     [ "appendPointData", "classrw_1_1writer_1_1LegacyVtkWriter.html#a001fd2b50eb16b741d0559a6b16ccd0f", null ],
     [ "appendPointData", "classrw_1_1writer_1_1LegacyVtkWriter.html#ac926aad729b9b984f7e581dd2dac8e08", null ],
     [ "appendPointData", "classrw_1_1writer_1_1LegacyVtkWriter.html#a133acff8f58b4b5997eb0637365b777d", null ],
@@ -19,5 +20,6 @@ var classrw_1_1writer_1_1LegacyVtkWriter =
     [ "close", "classrw_1_1writer_1_1LegacyVtkWriter.html#ae127d6129cfd198657581eb5bea3202e", null ],
     [ "d_compressType", "classrw_1_1writer_1_1LegacyVtkWriter.html#ad1b088fa4e08bd6a53e4ea90078bc218", null ],
     [ "d_file", "classrw_1_1writer_1_1LegacyVtkWriter.html#a2ef04062ceb9044fce74da33421ce862", null ],
-    [ "d_filename", "classrw_1_1writer_1_1LegacyVtkWriter.html#a1bea805d15f83efed6bd1e50e98ec29c", null ]
+    [ "d_filename", "classrw_1_1writer_1_1LegacyVtkWriter.html#a1bea805d15f83efed6bd1e50e98ec29c", null ],
+    [ "d_myfile", "classrw_1_1writer_1_1LegacyVtkWriter.html#aca0da9dc44fabcf13ae4af14b14a8c21", null ]
 ];

@@ -100,7 +100,7 @@ Collaboration diagram for rw::writer::LegacyVtkWriter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrw_1_1writer_1_1LegacyVtkWriter__coll__graph.png" border="0" usemap="#arw_1_1writer_1_1LegacyVtkWriter_coll__map" alt="Collaboration graph"/></div>
 <map name="rw_1_1writer_1_1LegacyVtkWriter_coll__map" id="arw_1_1writer_1_1LegacyVtkWriter_coll__map">
-<area shape="rect" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="5,5,185,567"/>
+<area shape="rect" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="5,5,185,611"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -152,6 +152,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a6c2ee0b48119881516ff3944915880d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1LegacyVtkWriter.html#a6c2ee0b48119881516ff3944915880d9">appendCellData</a> (const std::string &amp;name, const std::vector&lt; <a class="el" href="structutil_1_1SymMatrix3.html">util::SymMatrix3</a> &gt; *data)</td></tr>
 <tr class="memdesc:a6c2ee0b48119881516ff3944915880d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the symmetric matrix data associated to cells to the file.  <a href="classrw_1_1writer_1_1LegacyVtkWriter.html#a6c2ee0b48119881516ff3944915880d9">More...</a><br /></td></tr>
 <tr class="separator:a6c2ee0b48119881516ff3944915880d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551177a631b4b882a121b04c2db90dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1LegacyVtkWriter.html#a551177a631b4b882a121b04c2db90dc2">appendPointData</a> (const std::string &amp;name, const std::vector&lt; blaze::StaticMatrix&lt; double, 3, 3 &gt; &gt; *data)</td></tr>
+<tr class="memdesc:a551177a631b4b882a121b04c2db90dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the matrix data associated to cells to the file.  <a href="classrw_1_1writer_1_1LegacyVtkWriter.html#a551177a631b4b882a121b04c2db90dc2">More...</a><br /></td></tr>
+<tr class="separator:a551177a631b4b882a121b04c2db90dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Field data</div></td></tr>
 <tr class="memitem:a3fbc3fea3ad4f62fb5a175cc78225674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1LegacyVtkWriter.html#a3fbc3fea3ad4f62fb5a175cc78225674">appendFieldData</a> (const std::string &amp;name, const double &amp;data)</td></tr>
 <tr class="memdesc:a3fbc3fea3ad4f62fb5a175cc78225674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the scalar field data to the file.  <a href="classrw_1_1writer_1_1LegacyVtkWriter.html#a3fbc3fea3ad4f62fb5a175cc78225674">More...</a><br /></td></tr>
@@ -177,6 +180,10 @@ std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1LegacyVtkWriter.html#a1bea805d15f83efed6bd1e50e98ec29c">d_filename</a></td></tr>
 <tr class="memdesc:a1bea805d15f83efed6bd1e50e98ec29c"><td class="mdescLeft">&#160;</td><td class="mdescRight">filename <br /></td></tr>
 <tr class="separator:a1bea805d15f83efed6bd1e50e98ec29c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca0da9dc44fabcf13ae4af14b14a8c21"><td class="memItemLeft" align="right" valign="top"><a id="aca0da9dc44fabcf13ae4af14b14a8c21"></a>
+std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1LegacyVtkWriter.html#aca0da9dc44fabcf13ae4af14b14a8c21">d_myfile</a></td></tr>
+<tr class="memdesc:aca0da9dc44fabcf13ae4af14b14a8c21"><td class="mdescLeft">&#160;</td><td class="mdescRight">output stream to write the vtu file <br /></td></tr>
+<tr class="separator:aca0da9dc44fabcf13ae4af14b14a8c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A vtk writer for simple point data and complex fem mesh data. </p>
@@ -516,8 +523,45 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 </div>
 </div>
+<a id="a551177a631b4b882a121b04c2db90dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551177a631b4b882a121b04c2db90dc2">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[1/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rw::writer::LegacyVtkWriter::appendPointData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; blaze::StaticMatrix&lt; double, 3, 3 &gt; &gt; *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes the matrix data associated to cells to the file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the data </td></tr>
+    <tr><td class="paramname">data</td><td>Vector containing the data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a001fd2b50eb16b741d0559a6b16ccd0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a001fd2b50eb16b741d0559a6b16ccd0f">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a001fd2b50eb16b741d0559a6b16ccd0f">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -554,7 +598,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="ac926aad729b9b984f7e581dd2dac8e08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac926aad729b9b984f7e581dd2dac8e08">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac926aad729b9b984f7e581dd2dac8e08">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -591,7 +635,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a133acff8f58b4b5997eb0637365b777d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a133acff8f58b4b5997eb0637365b777d">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a133acff8f58b4b5997eb0637365b777d">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -628,7 +672,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a8c6e4dfa45c52309c708557d1de23953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c6e4dfa45c52309c708557d1de23953">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6e4dfa45c52309c708557d1de23953">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +709,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a449cabcfd270ffdd25e44b0f891f48c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a449cabcfd270ffdd25e44b0f891f48c8">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a449cabcfd270ffdd25e44b0f891f48c8">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -702,7 +746,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a348eaa1edadfa579724b64e43b5dde99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a348eaa1edadfa579724b64e43b5dde99">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a348eaa1edadfa579724b64e43b5dde99">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,7 +783,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <a id="a7eafbbac7c1f0fdd2f5735430c498bf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eafbbac7c1f0fdd2f5735430c498bf7">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eafbbac7c1f0fdd2f5735430c498bf7">&#9670;&nbsp;</a></span>appendPointData() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
