@@ -30,7 +30,8 @@ var NAVTREE =
     [ "Releases", "index.html#autotoc_md7", null ],
     [ "Code of conduct", "index.html#autotoc_md8", null ],
     [ "Contributing", "index.html#autotoc_md9", null ],
-    [ "Acknowledgements", "index.html#autotoc_md10", null ],
+    [ "Citing", "index.html#autotoc_md10", null ],
+    [ "Acknowledgements", "index.html#autotoc_md11", null ],
     [ "CMake options", "md_content_cmake-options.html", [
       [ "NLMech", "md_content_cmake-options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake-options.html#autotoc_md2", null ],
@@ -70,8 +71,8 @@ var NAVTREEINDEX =
 "classgeometry_1_1BaseInterior.html#aace0523a388cc3b892e8c521564c7024",
 "classmaterial_1_1pd_1_1RNPBond.html#a8202d7fe4e42385b78c9b3e2b61faefd",
 "dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html",
-"structinp_1_1BCData.html",
-"structtools_1_1pp_1_1InstructionData.html#a156f28ecd3aac7755b9d06cebc24e802"
+"structinp_1_1AbsorbingCondDeck.html#afd2d5fb739171eda34d6e51cf08fbdb0",
+"structtools_1_1pp_1_1InstructionData.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
