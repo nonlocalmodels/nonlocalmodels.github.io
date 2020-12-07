@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('classrw_1_1writer_1_1Writer.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">rw::writer::Writer Class Reference</div>  </div>
@@ -100,7 +101,7 @@ Collaboration diagram for rw::writer::Writer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrw_1_1writer_1_1Writer__coll__graph.png" border="0" usemap="#arw_1_1writer_1_1Writer_coll__map" alt="Collaboration graph"/></div>
 <map name="rw_1_1writer_1_1Writer_coll__map" id="arw_1_1writer_1_1Writer_coll__map">
-<area shape="rect" title="A interface class writing data." alt="" coords="219,673,361,1249"/>
+<area shape="rect" title="A interface class writing data." alt="" coords="219,673,361,1264"/>
 <area shape="rect" href="classrw_1_1writer_1_1LegacyVtkWriter.html" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="5,5,185,611"/>
 <area shape="rect" href="classrw_1_1writer_1_1MshWriter.html" title="A .msh writer for simple point data and complex fem mesh data." alt="" coords="210,35,370,581"/>
 <area shape="rect" href="classrw_1_1writer_1_1VtkWriter.html" title="A vtk writer for simple point data and complex fem mesh data." alt="" coords="394,27,535,589"/>
@@ -176,6 +177,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a3d2553a0bbe56d50513254c7f677fc6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1Writer.html#a3d2553a0bbe56d50513254c7f677fc6b">addTimeStep</a> (const double &amp;timestep)</td></tr>
 <tr class="memdesc:a3d2553a0bbe56d50513254c7f677fc6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the time step to the file.  <a href="classrw_1_1writer_1_1Writer.html#a3d2553a0bbe56d50513254c7f677fc6b">More...</a><br /></td></tr>
 <tr class="separator:a3d2553a0bbe56d50513254c7f677fc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a00c2f9be38b974d06ad81494e2c124f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrw_1_1writer_1_1Writer.html#a00c2f9be38b974d06ad81494e2c124f3">checkLength</a> (const size_t length, const std::string &amp;name)</td></tr>
+<tr class="memdesc:a00c2f9be38b974d06ad81494e2c124f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the field is not zero This check is important for the legacy vtk writer, since empty fields result in warnings while laoding the data.  <a href="classrw_1_1writer_1_1Writer.html#a00c2f9be38b974d06ad81494e2c124f3">More...</a><br /></td></tr>
+<tr class="separator:a00c2f9be38b974d06ad81494e2c124f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -864,6 +871,51 @@ Here is the caller graph for this function:</div>
   <table class="params">
     <tr><td class="paramname">name</td><td>Name of the data </td></tr>
     <tr><td class="paramname">data</td><td>Vector containing the data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a00c2f9be38b974d06ad81494e2c124f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c2f9be38b974d06ad81494e2c124f3">&#9670;&nbsp;</a></span>checkLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rw::writer::Writer::checkLength </td>
+          <td>(</td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the field is not zero This check is important for the legacy vtk writer, since empty fields result in warnings while laoding the data. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">length</td><td>Size of the field </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the field </td></tr>
   </table>
   </dd>
 </dl>

@@ -18,6 +18,7 @@ var classrw_1_1writer_1_1Writer =
     [ "appendPointData", "classrw_1_1writer_1_1Writer.html#a4eb934acd3104065ef39569ea12c600f", null ],
     [ "appendPointData", "classrw_1_1writer_1_1Writer.html#af3f30b15d729f325a0889d49b49f87e4", null ],
     [ "appendPointData", "classrw_1_1writer_1_1Writer.html#a66a8beac9f3477ff60043cfae682c5e1", null ],
+    [ "checkLength", "classrw_1_1writer_1_1Writer.html#a00c2f9be38b974d06ad81494e2c124f3", null ],
     [ "close", "classrw_1_1writer_1_1Writer.html#ac448fb1c1505ec11c31be73d8996a1cf", null ],
     [ "open", "classrw_1_1writer_1_1Writer.html#a99073ac82c4547629307fb269235d051", null ],
     [ "d_format", "classrw_1_1writer_1_1Writer.html#a51a99ad27950d237680b0f49b39fc6ba", null ],
