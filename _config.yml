@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Non local models software toolkit
-email: nlm-fellows@cct.lsu.edu
+email: nlmech-fellows@googlegroups.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are a collobaration of researchers developing a simulation code for non local models accelerated by the C++
   standard library for parallism and concurrency (HPX).
