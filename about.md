@@ -12,11 +12,14 @@ The code uses the C++ standard library for parallism and concurrency ([HPX](http
 
 Following packages are available:
 
-* [build tools](https://github.com/nonlocalmodels/buildscripts) for an ease installation are available.
-* [HPCBuildInfrastructure](https://github.com/nonlocalmodels/HPCBuildInfrastructure) for an ease installation of any HPX enviroment,
+* [build tools](https://github.com/nonlocalmodels/buildscripts) for an ease installation, and.
+* [HPCBuildInfrastructure](https://github.com/nonlocalmodels/HPCBuildInfrastructure) for an ease installation of any HPC enviroment,
 
 Please cite following publications, if you use the code
 
 *  P. Diehl, P. K. Jha, H. Kaiser, R. Lipton, and M. Lévesque. An asynchronous and task-based implementation of peridynamics utilizing hpx—the C++ standard library for parallelism and concurrency. SN Applied Sciences, 2(12):2144, 2020, [10.1007/s42452-020-03784-x]({https://doi.org/10.1007/s42452-020-03784-x), [Preprint](https://arxiv.org/abs/1806.06917). 
 
 and for more [publications](https://nonlocalmodels.github.io/publications/), we refer to. 
+
+Following mailing lists are available to contact the community: for [developers](https://groups.google.com/g/nlmech-developers), for [users](https://groups.google.com/g/nlmech-users), and for contatcing the [core developers](https://groups.google.com/g/nlmech-fellows).
+
