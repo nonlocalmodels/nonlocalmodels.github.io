@@ -19,6 +19,10 @@ some of them are taken from publications. We hope that these examples provide yo
 * [Recovering the elastic properties (1D)](/examples/qs-1d-properties.html)
 * [Recovering the elastic properties (2D)](/examples/qs-2d-elastic.html)
 
+## Features
+
+* [Restart a simulation](/examples/restart.html)
+
 ## Tools
 
 * [Simple comparison of two simulation files](/examples/simple-comapre.html)
