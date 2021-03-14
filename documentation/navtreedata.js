@@ -25,13 +25,15 @@
 var NAVTREE =
 [
   [ "NLMech", "index.html", [
-    [ "Building", "index.html#autotoc_md5", null ],
-    [ "Documentation", "index.html#autotoc_md6", null ],
-    [ "Releases", "index.html#autotoc_md7", null ],
-    [ "Code of conduct", "index.html#autotoc_md8", null ],
-    [ "Contributing", "index.html#autotoc_md9", null ],
-    [ "Citing", "index.html#autotoc_md10", null ],
-    [ "Acknowledgements", "index.html#autotoc_md11", null ],
+    [ "NLMech <a href=\"https://joss.theoj.org/papers/271dd66ea91b7fbfdccb4b10a7ba462c\"><img src=\"https://joss.theoj.org/papers/271dd66ea91b7fbfdccb4b10a7ba462c/status.svg\" alt=\"status\"/></a>", "index.html", [
+      [ "Building", "index.html#autotoc_md5", null ],
+      [ "Documentation", "index.html#autotoc_md6", null ],
+      [ "Releases", "index.html#autotoc_md7", null ],
+      [ "Code of conduct", "index.html#autotoc_md8", null ],
+      [ "Contributing", "index.html#autotoc_md9", null ],
+      [ "Citing", "index.html#autotoc_md10", null ],
+      [ "Acknowledgements", "index.html#autotoc_md11", null ]
+    ] ],
     [ "CMake options", "md_content_cmake-options.html", [
       [ "NLMech", "md_content_cmake-options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake-options.html#autotoc_md2", null ],
@@ -71,8 +73,8 @@ var NAVTREEINDEX =
 "classgeometry_1_1BaseInterior.html#a8802f181a7c74b081561778700d6fd74",
 "classmaterial_1_1pd_1_1RNPBond.html#a7cd09eee270d49ae05a3484204050868",
 "dir_2f8182a8705fc6245951c88cd9c5edb4.html",
-"structinp_1_1AbsorbingCondDeck.html#ac58b0849e3e130b7fbb8da57baeedb68",
-"structtools_1_1pp_1_1FindCrackTip.html#ab8b52b694c9fd82ea61c2a6a15e67170"
+"structinp_1_1AbsorbingCondDeck.html#ac3d4b276949d79206b64e4e2f275e9b0",
+"structtools_1_1pp_1_1FindCrackTip.html#ab4887a66620ea7f7d4b6e6f456f27067"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
