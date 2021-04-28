@@ -100,7 +100,7 @@ Collaboration diagram for fe::Mesh:</div>
 <div class="dyncontent">
 <div class="center"><img src="classfe_1_1Mesh__coll__graph.png" border="0" usemap="#afe_1_1Mesh_coll__map" alt="Collaboration graph"/></div>
 <map name="fe_1_1Mesh_coll__map" id="afe_1_1Mesh_coll__map">
-<area shape="rect" title="A class for mesh data." alt="" coords="5,5,168,1227"/>
+<area shape="rect" title="A class for mesh data." alt="" coords="5,5,168,1285"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -183,6 +183,18 @@ std::vector&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bot
 <tr class="memitem:ae551b2ddddf6f4fcb895da1bab600c18"><td class="memItemLeft" align="right" valign="top"><a id="ae551b2ddddf6f4fcb895da1bab600c18"></a>
 std::vector&lt; double &gt; *&#160;</td><td class="memItemRight" valign="bottom"><b>getNodalVolumesP</b> ()</td></tr>
 <tr class="separator:ae551b2ddddf6f4fcb895da1bab600c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054dfe12e1cc945e8a9613c9c90ef6b3"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a054dfe12e1cc945e8a9613c9c90ef6b3">getPrescribedNodes</a> () const</td></tr>
+<tr class="memdesc:a054dfe12e1cc945e8a9613c9c90ef6b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector of indicies with prescribed values from the couplign method.  <a href="classfe_1_1Mesh.html#a054dfe12e1cc945e8a9613c9c90ef6b3">More...</a><br /></td></tr>
+<tr class="separator:a054dfe12e1cc945e8a9613c9c90ef6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61cf998d381ab5997834f7e28559e81"><td class="memItemLeft" align="right" valign="top"><a id="ae61cf998d381ab5997834f7e28559e81"></a>
+std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getPrescribedNodes</b> ()</td></tr>
+<tr class="separator:ae61cf998d381ab5997834f7e28559e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad673ed2cc10073ddd98ef7a892ec15e6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="structutil_1_1Point3.html">util::Point3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#ad673ed2cc10073ddd98ef7a892ec15e6">getPrescribedValues</a> () const</td></tr>
+<tr class="memdesc:ad673ed2cc10073ddd98ef7a892ec15e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the vector of values of the prescribed nodes from the couplign method.  <a href="classfe_1_1Mesh.html#ad673ed2cc10073ddd98ef7a892ec15e6">More...</a><br /></td></tr>
+<tr class="separator:ad673ed2cc10073ddd98ef7a892ec15e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8933c1902545135d2579d1f16584b285"><td class="memItemLeft" align="right" valign="top"><a id="a8933c1902545135d2579d1f16584b285"></a>
+std::vector&lt; <a class="el" href="structutil_1_1Point3.html">util::Point3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getPrescribedValues</b> ()</td></tr>
+<tr class="separator:a8933c1902545135d2579d1f16584b285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c3f442af224c4ce485a6b462caeffe4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a2c3f442af224c4ce485a6b462caeffe4">isNodeFree</a> (const size_t &amp;i, const unsigned int &amp;dof) const</td></tr>
 <tr class="memdesc:a2c3f442af224c4ce485a6b462caeffe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if node is free.  <a href="classfe_1_1Mesh.html#a2c3f442af224c4ce485a6b462caeffe4">More...</a><br /></td></tr>
 <tr class="separator:a2c3f442af224c4ce485a6b462caeffe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,9 +249,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Utility methods</div></td></tr>
-<tr class="memitem:a8adfa02f3ce02156c2e50439406a7107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a8adfa02f3ce02156c2e50439406a7107">createData</a> (const std::string &amp;filename, bool ref_config, bool is_centroid_based)</td></tr>
-<tr class="memdesc:a8adfa02f3ce02156c2e50439406a7107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads mesh data from the file and populates other data.  <a href="classfe_1_1Mesh.html#a8adfa02f3ce02156c2e50439406a7107">More...</a><br /></td></tr>
-<tr class="separator:a8adfa02f3ce02156c2e50439406a7107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9835fbdfbf819ecdff03d0131912de02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a9835fbdfbf819ecdff03d0131912de02">createData</a> (const std::string &amp;filename, bool ref_config, bool is_centroid_based, bool has_coupling_data)</td></tr>
+<tr class="memdesc:a9835fbdfbf819ecdff03d0131912de02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads mesh data from the file and populates other data.  <a href="classfe_1_1Mesh.html#a9835fbdfbf819ecdff03d0131912de02">More...</a><br /></td></tr>
+<tr class="separator:a9835fbdfbf819ecdff03d0131912de02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4944c0271ac8613ba58666143f79321b"><td class="memItemLeft" align="right" valign="top"><a id="a4944c0271ac8613ba58666143f79321b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a4944c0271ac8613ba58666143f79321b">nodesAtCentroid</a> ()</td></tr>
 <tr class="memdesc:a4944c0271ac8613ba58666143f79321b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts standard fem mesh to particle mesh with nodes at the center of element. <br /></td></tr>
@@ -321,6 +333,12 @@ std::vector&lt; <a class="el" href="structutil_1_1Point3.html">util::Point3</a> 
 <tr class="memitem:a09fffecc9f8b882b654117a2dfbf660b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a09fffecc9f8b882b654117a2dfbf660b">d_vol</a></td></tr>
 <tr class="memdesc:a09fffecc9f8b882b654117a2dfbf660b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of volume of each node.  <a href="classfe_1_1Mesh.html#a09fffecc9f8b882b654117a2dfbf660b">More...</a><br /></td></tr>
 <tr class="separator:a09fffecc9f8b882b654117a2dfbf660b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7384fd1a033c5982d06e1c7be2f93bb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#ab7384fd1a033c5982d06e1c7be2f93bb">d_prescribed_nodes</a></td></tr>
+<tr class="memdesc:ab7384fd1a033c5982d06e1c7be2f93bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector with the indicies of all nodes with prescribed boundary data.  <a href="classfe_1_1Mesh.html#ab7384fd1a033c5982d06e1c7be2f93bb">More...</a><br /></td></tr>
+<tr class="separator:ab7384fd1a033c5982d06e1c7be2f93bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8bc3db957761352b6b801fa7b5e1a2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structutil_1_1Point3.html">util::Point3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfe_1_1Mesh.html#a6f8bc3db957761352b6b801fa7b5e1a2">d_prescribed_values</a></td></tr>
+<tr class="memdesc:a6f8bc3db957761352b6b801fa7b5e1a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector with the values of all nodes with prescribed boundary data.  <a href="classfe_1_1Mesh.html#a6f8bc3db957761352b6b801fa7b5e1a2">More...</a><br /></td></tr>
+<tr class="separator:a6f8bc3db957761352b6b801fa7b5e1a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class for mesh data. </p>
@@ -402,7 +420,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="Constructor." alt="" coords="5,81,119,108"/>
 <area shape="rect" href="classinp_1_1Policy.html#a06329dd627097de56dfeb761f1115558" title="Adds tag to specified level tag list." alt="" coords="185,5,337,32"/>
 <area shape="rect" href="classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd" title="Compute the mesh size." alt="" coords="167,56,355,83"/>
-<area shape="rect" href="classfe_1_1Mesh.html#a8adfa02f3ce02156c2e50439406a7107" title="Reads mesh data from the file and populates other data." alt="" coords="189,208,333,235"/>
+<area shape="rect" href="classfe_1_1Mesh.html#a9835fbdfbf819ecdff03d0131912de02" title="Reads mesh data from the file and populates other data." alt="" coords="189,208,333,235"/>
 <area shape="rect" href="classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="429,107,587,133"/>
 <area shape="rect" href="namespaceutil_1_1compare.html#afbc9630e288fb337b0a67e3cf6df02c9" title="Compares if a is &lt; to b." alt="" coords="429,41,587,82"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="429,157,587,184"/>
@@ -507,8 +525,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8adfa02f3ce02156c2e50439406a7107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8adfa02f3ce02156c2e50439406a7107">&#9670;&nbsp;</a></span>createData()</h2>
+<a id="a9835fbdfbf819ecdff03d0131912de02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9835fbdfbf819ecdff03d0131912de02">&#9670;&nbsp;</a></span>createData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -532,7 +550,13 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>is_centroid_based</em>&#160;</td>
+          <td class="paramname"><em>is_centroid_based</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>has_coupling_data</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -555,6 +579,7 @@ Here is the call graph for this function:</div>
     <tr><td class="paramname">filename</td><td>Name of the mesh file </td></tr>
     <tr><td class="paramname">ref_config</td><td>Base the mesh on reference configuration (obtain reference configuration using point data and displacement data) </td></tr>
     <tr><td class="paramname">is_centroid_based</td><td>Specify if we create node at the center of element </td></tr>
+    <tr><td class="paramname">has_coupling_data</td><td>Specify if we read the additional data needed for coupling </td></tr>
   </table>
   </dd>
 </dl>
@@ -563,8 +588,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_cgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_cgraph" alt=""/></div>
-<map name="classfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_cgraph" id="aclassfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_cgraph">
+<div class="center"><img src="classfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_cgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_cgraph" alt=""/></div>
+<map name="classfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_cgraph" id="aclassfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_cgraph">
 <area shape="rect" title="Reads mesh data from the file and populates other data." alt="" coords="5,132,149,159"/>
 <area shape="rect" href="classinp_1_1Policy.html#a879f83a83b931d42e1c63ddf3d420bd5" title="Returns the pointer to static class. Creates instance in its first call." alt="" coords="223,5,382,32"/>
 <area shape="rect" href="namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca" title="Reads mesh data into node file and element file." alt="" coords="224,56,381,83"/>
@@ -577,8 +602,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_icgraph" alt=""/></div>
-<map name="classfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_icgraph" id="aclassfe_1_1Mesh_a8adfa02f3ce02156c2e50439406a7107_icgraph">
+<div class="center"><img src="classfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_icgraph" alt=""/></div>
+<map name="classfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_icgraph" id="aclassfe_1_1Mesh_a9835fbdfbf819ecdff03d0131912de02_icgraph">
 <area shape="rect" title="Reads mesh data from the file and populates other data." alt="" coords="167,5,311,32"/>
 <area shape="rect" href="classfe_1_1Mesh.html#a0041afbb7d7e94bfb01c108e460196fb" title="Constructor." alt="" coords="5,5,119,32"/>
 </map>
@@ -1048,7 +1073,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Get the pointer to nodal volume data. </p>
-<dl class="section return"><dt>Returns</dt><dd>pointer Pointer to nodal volume data </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to nodal volume data </dd></dl>
 
 <p class="reference">Referenced by <a class="el" href="classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c">model::Output::Output()</a>.</p>
 <div class="dynheader">
@@ -1293,6 +1318,84 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="classloading_1_1FLoading.html#a51f45ecb6cc4adff834aa0821e7b4f07" title="Constructor." alt="" coords="255,253,387,295"/>
 <area shape="rect" href="classmodel_1_1Output.html#a5ac2b02d265f030db8178656bad23f1c" title="Outputs the iteration d_n to the file system." alt="" coords="245,319,396,346"/>
 <area shape="rect" href="classloading_1_1ULoading.html#ab6300ad294de4a5cb4a2868b25063bb0" title="Constructor." alt="" coords="253,371,388,412"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a054dfe12e1cc945e8a9613c9c90ef6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054dfe12e1cc945e8a9613c9c90ef6b3">&#9670;&nbsp;</a></span>getPrescribedNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;size_t&gt; fe::Mesh::getPrescribedNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vector of indicies with prescribed values from the couplign method. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector with the indicies </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="classloading_1_1ULoading.html#ab6300ad294de4a5cb4a2868b25063bb0">loading::ULoading::ULoading()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classfe_1_1Mesh_a054dfe12e1cc945e8a9613c9c90ef6b3_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_a054dfe12e1cc945e8a9613c9c90ef6b3_icgraph" alt=""/></div>
+<map name="classfe_1_1Mesh_a054dfe12e1cc945e8a9613c9c90ef6b3_icgraph" id="aclassfe_1_1Mesh_a054dfe12e1cc945e8a9613c9c90ef6b3_icgraph">
+<area shape="rect" title="Get the vector of indicies with prescribed values from the couplign method." alt="" coords="188,13,387,39"/>
+<area shape="rect" href="classloading_1_1ULoading.html#ab6300ad294de4a5cb4a2868b25063bb0" title="Constructor." alt="" coords="5,5,140,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad673ed2cc10073ddd98ef7a892ec15e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad673ed2cc10073ddd98ef7a892ec15e6">&#9670;&nbsp;</a></span>getPrescribedValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;<a class="el" href="structutil_1_1Point3.html">util::Point3</a>&gt; fe::Mesh::getPrescribedValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the vector of values of the prescribed nodes from the couplign method. </p>
+<dl class="section return"><dt>Returns</dt><dd>Vector with the prescribed values </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="classloading_1_1ULoading.html#a4f0dc0464ec164c922f9ad01676f691d">loading::ULoading::apply()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classfe_1_1Mesh_ad673ed2cc10073ddd98ef7a892ec15e6_icgraph.png" border="0" usemap="#aclassfe_1_1Mesh_ad673ed2cc10073ddd98ef7a892ec15e6_icgraph" alt=""/></div>
+<map name="classfe_1_1Mesh_ad673ed2cc10073ddd98ef7a892ec15e6_icgraph" id="aclassfe_1_1Mesh_ad673ed2cc10073ddd98ef7a892ec15e6_icgraph">
+<area shape="rect" title="Get the vector of values of the prescribed nodes from the couplign method." alt="" coords="188,13,388,39"/>
+<area shape="rect" href="classloading_1_1ULoading.html#a4f0dc0464ec164c922f9ad01676f691d" title="Applies displacement boundary condition." alt="" coords="5,5,140,47"/>
 </map>
 </div>
 
@@ -1933,6 +2036,60 @@ Here is the caller graph for this function:</div>
 
 <p>Node-element connectivity data. </p>
 <p>At present, this data is never populated. </p>
+
+</div>
+</div>
+<a id="ab7384fd1a033c5982d06e1c7be2f93bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7384fd1a033c5982d06e1c7be2f93bb">&#9670;&nbsp;</a></span>d_prescribed_nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; fe::Mesh::d_prescribed_nodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector with the indicies of all nodes with prescribed boundary data. </p>
+<p>For coupling with other codes, e.g. FEM or PUM, prescribed values for displacement or force are given by the local method and applied to these PD nodes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classfe_1_1Mesh.html#a054dfe12e1cc945e8a9613c9c90ef6b3">getPrescribedNodes()</a>.</p>
+
+</div>
+</div>
+<a id="a6f8bc3db957761352b6b801fa7b5e1a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8bc3db957761352b6b801fa7b5e1a2">&#9670;&nbsp;</a></span>d_prescribed_values</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structutil_1_1Point3.html">util::Point3</a>&gt; fe::Mesh::d_prescribed_values</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector with the values of all nodes with prescribed boundary data. </p>
+<p>For coupling with other codes, e.g. FEM or PUM, prescribed values for displacement or force are given by the local method and applied to these PD nodes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classfe_1_1Mesh.html#ad673ed2cc10073ddd98ef7a892ec15e6">getPrescribedValues()</a>.</p>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ var classfe_1_1Mesh =
     [ "computeBBox", "classfe_1_1Mesh.html#a4515421aaf61c23e104e97f9017967bf", null ],
     [ "computeMeshSize", "classfe_1_1Mesh.html#a63a72abf6d18ebfa92750319c19c10dd", null ],
     [ "computeVol", "classfe_1_1Mesh.html#ad8e7d706e7378a729c22842bfbf6af3b", null ],
-    [ "createData", "classfe_1_1Mesh.html#a8adfa02f3ce02156c2e50439406a7107", null ],
+    [ "createData", "classfe_1_1Mesh.html#a9835fbdfbf819ecdff03d0131912de02", null ],
     [ "getBoundingBox", "classfe_1_1Mesh.html#a1187b24abeaba02006f5faf2dc7e2051", null ],
     [ "getDimension", "classfe_1_1Mesh.html#ace82526bc83fe9fd574dc5daf2a10433", null ],
     [ "getElementConnectivities", "classfe_1_1Mesh.html#a4707528df15e0de6d775ab5b460688c3", null ],
@@ -35,6 +35,10 @@ var classfe_1_1Mesh =
     [ "getNumDofs", "classfe_1_1Mesh.html#aee8b5faafb9b76e5cb9dd01cd0b933c3", null ],
     [ "getNumElements", "classfe_1_1Mesh.html#ab168daf41aec75099948a519d1a252ad", null ],
     [ "getNumNodes", "classfe_1_1Mesh.html#aac3df3472139b865eda7406c1d1c3d77", null ],
+    [ "getPrescribedNodes", "classfe_1_1Mesh.html#ae61cf998d381ab5997834f7e28559e81", null ],
+    [ "getPrescribedNodes", "classfe_1_1Mesh.html#a054dfe12e1cc945e8a9613c9c90ef6b3", null ],
+    [ "getPrescribedValues", "classfe_1_1Mesh.html#a8933c1902545135d2579d1f16584b285", null ],
+    [ "getPrescribedValues", "classfe_1_1Mesh.html#ad673ed2cc10073ddd98ef7a892ec15e6", null ],
     [ "isNodeFree", "classfe_1_1Mesh.html#a2c3f442af224c4ce485a6b462caeffe4", null ],
     [ "nodesAtCentroid", "classfe_1_1Mesh.html#a4944c0271ac8613ba58666143f79321b", null ],
     [ "print", "classfe_1_1Mesh.html#aaf73c9e43a12b56ed55c189b11357b70", null ],
@@ -62,6 +66,8 @@ var classfe_1_1Mesh =
     [ "d_numDofs", "classfe_1_1Mesh.html#af60af983b91daddf1e37b0583aee14d8", null ],
     [ "d_numElems", "classfe_1_1Mesh.html#a4ea35d9a5be30637c26117d6c2c80a26", null ],
     [ "d_numNodes", "classfe_1_1Mesh.html#aa40c6de87c639b7bad467d20c9574540", null ],
+    [ "d_prescribed_nodes", "classfe_1_1Mesh.html#ab7384fd1a033c5982d06e1c7be2f93bb", null ],
+    [ "d_prescribed_values", "classfe_1_1Mesh.html#a6f8bc3db957761352b6b801fa7b5e1a2", null ],
     [ "d_spatialDiscretization", "classfe_1_1Mesh.html#a0bc255c2a2116ea8d7034094eeda7743", null ],
     [ "d_vol", "classfe_1_1Mesh.html#a09fffecc9f8b882b654117a2dfbf660b", null ]
 ];
