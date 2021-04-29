@@ -1,5 +1,30 @@
 var namespacerw_1_1reader =
 [
     [ "MshReader", "classrw_1_1reader_1_1MshReader.html", "classrw_1_1reader_1_1MshReader" ],
-    [ "VtkReader", "classrw_1_1reader_1_1VtkReader.html", "classrw_1_1reader_1_1VtkReader" ]
+    [ "VtkReader", "classrw_1_1reader_1_1VtkReader.html", "classrw_1_1reader_1_1VtkReader" ],
+    [ "readCsvFile", "namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca", null ],
+    [ "readMshFile", "namespacerw_1_1reader.html#ae1d467da75a47df964d46c85fc1cd2ea", null ],
+    [ "readMshFilePointData", "namespacerw_1_1reader.html#a0a732cb07bfea4ab6b044c7621e2ce39", null ],
+    [ "readMshFileRestart", "namespacerw_1_1reader.html#afe2a171561ea5b5bb89c8e2afa4323ea", null ],
+    [ "readVtuFile", "namespacerw_1_1reader.html#a06f5f2e42c7507cb34b9b7f4817af82b", null ],
+    [ "readVtuFileCellData", "namespacerw_1_1reader.html#aac429b09d673ed8da41a6d321c8dd6e1", null ],
+    [ "readVtuFileCellData", "namespacerw_1_1reader.html#ab69467872346984da99aa7ebc17e35d2", null ],
+    [ "readVtuFileCellData", "namespacerw_1_1reader.html#aaabd35065633ffc6f1bfabcaca345190", null ],
+    [ "readVtuFileCellData", "namespacerw_1_1reader.html#af4c9e6d04a36645c42832c6518c70172", null ],
+    [ "readVtuFileCellData", "namespacerw_1_1reader.html#ae05044466d3b40f7af894db95bdf2609", null ],
+    [ "readVtuFileCells", "namespacerw_1_1reader.html#a79098cecf3c77855498e8322ec1bf3a8", null ],
+    [ "readVtuFileCellTags", "namespacerw_1_1reader.html#a351e2cd7512e9c8eb18866db1786d217", null ],
+    [ "readVtuFileNodes", "namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a53c2eff4f3372c0d4c643ffe3168272d", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a2e0a4925a26e79eb96515a4075210d21", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a9ed4175b553d8a84e9caa21d5367c1bd", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a8b2fd65cdae6ebbd0620c2dde55b0cd2", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a625e2d593153c7f7504ee62fa4568569", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#a647a1916f5c27c85d4961fcf973b9d5b", null ],
+    [ "readVtuFilePointData", "namespacerw_1_1reader.html#acaff43ac5e97f5e080a47bc6910f3454", null ],
+    [ "readVtuFilePointTags", "namespacerw_1_1reader.html#a47452c6ec3ac459c27a37a89d4ad740c", null ],
+    [ "readVtuFileRestart", "namespacerw_1_1reader.html#a145f9e3db271e418c25360ed4ab9459a", null ],
+    [ "vtuHasCellData", "namespacerw_1_1reader.html#a9c6b27e483fb096dfe6977072c52c0f9", null ],
+    [ "vtuHasPointData", "namespacerw_1_1reader.html#acf93d879cd9e1f98da659a7ed33a694d", null ]
 ];

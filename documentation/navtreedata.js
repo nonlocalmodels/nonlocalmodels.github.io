@@ -34,10 +34,10 @@ var NAVTREE =
       [ "Citing", "index.html#autotoc_md10", null ],
       [ "Acknowledgements", "index.html#autotoc_md11", null ]
     ] ],
-    [ "CMake options", "md_content_cmake-options.html", [
-      [ "NLMech", "md_content_cmake-options.html#autotoc_md1", null ],
-      [ "General options", "md_content_cmake-options.html#autotoc_md2", null ],
-      [ "Dependencies", "md_content_cmake-options.html#autotoc_md3", null ]
+    [ "CMake options", "md_content_cmake_options.html", [
+      [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
+      [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
+      [ "Dependencies", "md_content_cmake_options.html#autotoc_md3", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -69,12 +69,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classfe_1_1TriElem.html#ad83ac79ee69ae64b452caadf331f90fd",
-"classmaterial_1_1pd_1_1RNPBond.html#a2cbf5a6ba89d59dcbb13a6a9fdad0c48",
-"compare_8h_source.html",
-"structfe_1_1QuadData.html#af187dfd9b92ce0c656bc48a76befa1a7",
-"structtools_1_1pp_1_1CrackTipData.html#ae84638fbacb01d2037216054686f0858"
+"Config_8h_source.html",
+"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
+"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
+"dampingGeom_8h_source.html",
+"namespacerw_1_1reader.html#afe2a171561ea5b5bb89c8e2afa4323ea",
+"structinp_1_1MatData.html#a77952dd7d9e4ad525864f07c700b832a",
+"structutil_1_1Point3.html#aff23ee7d08f6bdb9429901c32e9cf362"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
