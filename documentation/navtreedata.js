@@ -25,15 +25,13 @@
 var NAVTREE =
 [
   [ "NLMech", "index.html", [
-    [ "NLMech <a href=\"https://joss.theoj.org/papers/271dd66ea91b7fbfdccb4b10a7ba462c\"><img src=\"https://joss.theoj.org/papers/271dd66ea91b7fbfdccb4b10a7ba462c/status.svg\" alt=\"status\"/></a>", "index.html", [
-      [ "Building", "index.html#autotoc_md5", null ],
-      [ "Documentation", "index.html#autotoc_md6", null ],
-      [ "Releases", "index.html#autotoc_md7", null ],
-      [ "Code of conduct", "index.html#autotoc_md8", null ],
-      [ "Contributing", "index.html#autotoc_md9", null ],
-      [ "Citing", "index.html#autotoc_md10", null ],
-      [ "Acknowledgements", "index.html#autotoc_md11", null ]
-    ] ],
+    [ "Building", "index.html#autotoc_md5", null ],
+    [ "Documentation", "index.html#autotoc_md6", null ],
+    [ "Releases", "index.html#autotoc_md7", null ],
+    [ "Code of conduct", "index.html#autotoc_md8", null ],
+    [ "Contributing", "index.html#autotoc_md9", null ],
+    [ "Citing", "index.html#autotoc_md10", null ],
+    [ "Acknowledgements", "index.html#autotoc_md11", null ],
     [ "CMake options", "md_content_cmake_options.html", [
       [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
@@ -69,13 +67,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classfe_1_1TriElem.html#ababf2fd56dbfa0d40e8808ee6526c5f2",
-"classmaterial_1_1pd_1_1RNPBond.html#a2a4b964b8e30bfaa2f8645bc5e7f9c2c",
-"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565",
-"namespacerw_1_1reader.html#ae1d467da75a47df964d46c85fc1cd2ea",
-"structinp_1_1MatData.html#a4fe6f8e01e3554e565732be1f3bed20b",
-"structutil_1_1Point3.html#ae32c60ef227f2fdae04bfb7338e35114"
+"Config_8h_source.html",
+"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
+"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
+"dampingGeom_8h_source.html",
+"namespacerw_1_1writer.html",
+"structinp_1_1MatData.html#a887aa0af9281440040832a22adcc1925",
+"structutil_1_1Point3.html#aff55627d1ed5b52073c7bd97538d2dd1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
