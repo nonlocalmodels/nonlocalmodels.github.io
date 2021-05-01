@@ -31,7 +31,7 @@ var NAVTREE =
     [ "Code of conduct", "index.html#autotoc_md8", null ],
     [ "Contributing", "index.html#autotoc_md9", null ],
     [ "Citing", "index.html#autotoc_md10", null ],
-    [ "Acknowledgements", "index.html#autotoc_md11", null ],
+    [ "Acknowledgments", "index.html#autotoc_md11", null ],
     [ "CMake options", "md_content_cmake_options.html", [
       [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],

@@ -97,44 +97,44 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 Building</h1>
 <p>The code uses</p>
 <ul>
-<li><a href="https://cmake.org/">CMake</a> 3.10</li>
+<li><a href="https://cmake.org/">CMake</a></li>
 </ul>
 <p>as the build system and has following dependencies:</p>
 <ul>
-<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.5.1</li>
-<li><a href="https://bitbucket.org/blaze-lib/blaze/src/master/">Blaze</a> 3.8, <br  />
+<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.6</li>
+<li><a href="https://bitbucket.org/blaze-lib/blaze/src/master/">Blaze</a>, <br  />
 </li>
 <li><a href="https://github.com/STEllAR-GROUP/BlazeIterative">Blaze_Iterative</a> master,</li>
-<li><a href="https://www.boost.org/">Boost</a> 1.73,</li>
-<li><a href="https://gmsh.info/">gmsh</a> 4.6,</li>
-<li><a href="https://www.vtk.org">VTK</a> 9.0, and</li>
-<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a> 0.6.3.</li>
+<li><a href="https://www.boost.org/">Boost</a>,</li>
+<li><a href="https://gmsh.info/">gmsh</a>,</li>
+<li><a href="https://www.vtk.org">VTK</a>, and</li>
+<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a>.</li>
 </ul>
-<p>Following dependencies are optional, but are recommend for large simualtions:</p>
+<p>Following dependencies are optional, but are recommend for large simulations:</p>
 <ul>
-<li><a href="https://github.com/PointCloudLibrary/pcl">PCL</a> 1.11.</li>
+<li><a href="https://github.com/PointCloudLibrary/pcl">PCL</a>.</li>
 </ul>
-<p>Note that the above provided versions are the minimal rquired versions and we recommend to use these to build the code.</p>
+<p>Since we use the latest stable <a href="https://getfedora.org/">Fedora</a> workstation spin for our continuous testing, we recommend these are the minimal required versions to build the latest stable version of the code. For the master branch the same versions should work. We strongly recommend to use the same CMake version to build HPX and NLMech.</p>
 <p>We provide following support to build the code</p>
 <ul>
 <li>Bash scripts to build the code on <a href="https://github.com/nonlocalmodels/buildscripts/tree/main/Ubuntu">Ubuntu</a> and <a href="https://github.com/nonlocalmodels/buildscripts/tree/main/Fedora">Fedora</a>,</li>
 <li>Docker files to build the code using the <a href="https://github.com/nonlocalmodels/buildscripts/blob/main/Docker/Fedora">Fedora packages</a> or <a href="https://github.com/nonlocalmodels/buildscripts/blob/main/Docker/FedoraAll">build all dependencies</a>,</li>
 <li><a href="https://github.com/nonlocalmodels/HPCBuildInfrastructure">Scripts</a> to build the code on HPC systems.</li>
 </ul>
-<p>If you just interested in running the application, we provide a Doker image with the <a href="https://github.com/nonlocalmodels/NLMech/packages/384758">latest sucessful build</a> of the main branch. For writing your own <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a> files, we provide a bunch of <a href="https://nonlocalmodels.github.io/examples/">examples</a>.</p>
+<p>If you just interested in running the application, we provide a Doker image with the <a href="https://github.com/nonlocalmodels/NLMech/packages/384758">latest Successful build</a> of the main branch. For writing your own <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a> files, we provide a bunch of <a href="https://nonlocalmodels.github.io/examples/">examples</a>.</p>
 <p>If you encounter any bug or want to submit a feature request, please generate an <a href="https://github.com/nonlocalmodels/NLMech/issues">issue</a> on GitHub. Right now, we have <a href="https://github.com/nonlocalmodels/NLMech/issues"><img src="https://img.shields.io/github/issues/nonlocalmodels/nlmech.svg" alt="GitHub issues" style="pointer-events: none;" class="inline"/></a>. For contributing, we refer to the Contributing section below.</p>
 <h1><a class="anchor" id="autotoc_md6"></a>
 Documentation</h1>
 <p>The documentation of the the main branch is available <a href="https://nonlocalmodels.github.io/documentation/">here</a>.</p>
 <h1><a class="anchor" id="autotoc_md7"></a>
 Releases</h1>
-<p>The current stable version is <a href="https://GitHub.com/nonlocalmodels/NLMech/releases/"><img src="https://img.shields.io/github/release/nonlocalmodels/NLMech.svg" alt="GitHub release" style="pointer-events: none;" class="inline"/></a> and the current developement happens in the <a href="https://github.com/nonlocalmodels/NLMech">main branch</a>. For more details, we refer to the <a href="https://github.com/nonlocalmodels/NLMech/blob/main/CHANGELOG.md">Changelog</a> file.</p>
+<p>The current stable version is <a href="https://GitHub.com/nonlocalmodels/NLMech/releases/"><img src="https://img.shields.io/github/release/nonlocalmodels/NLMech.svg" alt="GitHub release" style="pointer-events: none;" class="inline"/></a> and the current development happens in the <a href="https://github.com/nonlocalmodels/NLMech">main branch</a>. For more details, we refer to the <a href="https://github.com/nonlocalmodels/NLMech/blob/main/CHANGELOG.md">Changelog</a> file.</p>
 <h1><a class="anchor" id="autotoc_md8"></a>
 Code of conduct</h1>
 <p>We have adopted a <a href="https://github.com/nonlocalmodels/NLMech/blob/main/CODE_OF_CONDUCT.md">code of conduct</a> for this project. Please refer to this document if you would like to know more about the expectations for members of our community, with regard to how they will behave toward each other.</p>
 <h1><a class="anchor" id="autotoc_md9"></a>
 Contributing</h1>
-<p>The source code is released under the <a href="https://github.com/nonlocalmodels/nonlocalmodels.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nonlocalmodels/nonlocalmodels.github.io.svg" alt="GitHub license" style="pointer-events: none;" class="inline"/></a> license. If you like to contribute, we only accept your pull request using the same license. Please feel free to add your name to license header of the files you added or contributed to. If possible please add a test for your new feature using <a href="https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest">CTest</a>. We adapted the Google C++ <a href="https://google.github.io/styleguide/cppguide.html">Style Guide</a> for this project. We use the <a href="https://clang.llvm.org/docs/ClangFormat.html">clang-format</a> tool to format the soruce code with respect to this style guide. Please run the &lsquo;format.sh&rsquo; script before your do your pull request.</p>
+<p>The source code is released under the <a href="https://github.com/nonlocalmodels/nonlocalmodels.github.io/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nonlocalmodels/nonlocalmodels.github.io.svg" alt="GitHub license" style="pointer-events: none;" class="inline"/></a> license. If you like to contribute, we only accept your pull request using the same license. Please feel free to add your name to license header of the files you added or contributed to. If possible please add a test for your new feature using <a href="https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest">CTest</a>. We adapted the Google C++ <a href="https://google.github.io/styleguide/cppguide.html">Style Guide</a> for this project. We use the <a href="https://clang.llvm.org/docs/ClangFormat.html">clang-format</a> tool to format the source code with respect to this style guide. Please run the &lsquo;format.sh&rsquo; script before your do your pull request.</p>
 <h1><a class="anchor" id="autotoc_md10"></a>
 Citing</h1>
 <p>In publications, please use our paper as the main citation for NLMech:</p>
@@ -143,7 +143,7 @@ Citing</h1>
 </ul>
 <p>For more references, we refer to NLMech's <a href="https://nonlocalmodels.github.io/publications/">publication list</a>.</p>
 <h1><a class="anchor" id="autotoc_md11"></a>
-Acknowledgements</h1>
+Acknowledgments</h1>
 <p>NLMech has been funded by:</p>
 <ul>
 <li>Army Research Office Grant # W911NF-16-1-0456 to PI Dr. Robert Lipton (Professor at Louisiana State University). This grant supported Prashant K. Jha on a postdoctoral position from October 2016 - July 2019.</li>
