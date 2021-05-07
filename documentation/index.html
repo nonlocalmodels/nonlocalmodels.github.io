@@ -97,24 +97,24 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 Building</h1>
 <p>The code uses</p>
 <ul>
-<li><a href="https://cmake.org/">CMake</a></li>
+<li><a href="https://cmake.org/">CMake</a> 3.16</li>
 </ul>
 <p>as the build system and has following dependencies:</p>
 <ul>
-<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.6</li>
-<li><a href="https://bitbucket.org/blaze-lib/blaze/src/master/">Blaze</a>, <br  />
-</li>
+<li><a href="https://github.com/STEllAR-GROUP/hpx">HPX</a> 1.6.0</li>
+<li><a href="https://bitbucket.org/blaze-lib/blaze/src/master/">Blaze</a> 3.8,</li>
 <li><a href="https://github.com/STEllAR-GROUP/BlazeIterative">Blaze_Iterative</a> master,</li>
-<li><a href="https://www.boost.org/">Boost</a>,</li>
-<li><a href="https://gmsh.info/">gmsh</a>,</li>
-<li><a href="https://www.vtk.org">VTK</a>, and</li>
-<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a>.</li>
+<li><a href="https://www.boost.org/">Boost</a> 1.75, <br  />
+</li>
+<li><a href="https://gmsh.info/">gmsh</a> 4.7 ,</li>
+<li><a href="https://www.vtk.org">VTK</a> 9.0, and</li>
+<li><a href="https://github.com/jbeder/yaml-cpp">YAML-CPP</a> 0.6.</li>
 </ul>
-<p>Following dependencies are optional, but are recommend for large simulations:</p>
+<p>Following dependencies are optional, but are recommended for large simulations:</p>
 <ul>
-<li><a href="https://github.com/PointCloudLibrary/pcl">PCL</a>.</li>
+<li><a href="https://github.com/PointCloudLibrary/pcl">PCL</a> 1.11.</li>
 </ul>
-<p>Since we use the latest stable <a href="https://getfedora.org/">Fedora</a> workstation spin for our continuous testing, we recommend these are the minimal required versions to build the latest stable version of the code. For the master branch the same versions should work. We strongly recommend to use the same CMake version to build HPX and NLMech.</p>
+<p>Since we use the latest stable <a href="https://getfedora.org/">Fedora</a> workstation spin for our continuous testing, we recommend to use a Docker image to build the code. Thus, these are the minimal required versions are meet. For the master branch the same versions should work. We strongly recommend to use the same CMake version to build HPX and NLMech.</p>
 <p>We provide following support to build the code</p>
 <ul>
 <li>Bash scripts to build the code on <a href="https://github.com/nonlocalmodels/buildscripts/tree/main/Ubuntu">Ubuntu</a> and <a href="https://github.com/nonlocalmodels/buildscripts/tree/main/Fedora">Fedora</a>,</li>
