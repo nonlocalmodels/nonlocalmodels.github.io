@@ -25,17 +25,28 @@
 var NAVTREE =
 [
   [ "NLMech", "index.html", [
-    [ "Building", "index.html#autotoc_md5", null ],
-    [ "Documentation", "index.html#autotoc_md6", null ],
-    [ "Releases", "index.html#autotoc_md7", null ],
-    [ "Code of conduct", "index.html#autotoc_md8", null ],
-    [ "Contributing", "index.html#autotoc_md9", null ],
-    [ "Citing", "index.html#autotoc_md10", null ],
-    [ "Acknowledgments", "index.html#autotoc_md11", null ],
+    [ "Building", "index.html#autotoc_md14", null ],
+    [ "Documentation", "index.html#autotoc_md15", null ],
+    [ "Releases", "index.html#autotoc_md16", null ],
+    [ "Code of conduct", "index.html#autotoc_md17", null ],
+    [ "Contributing", "index.html#autotoc_md18", null ],
+    [ "Citing", "index.html#autotoc_md19", null ],
+    [ "Acknowledgments", "index.html#autotoc_md20", null ],
     [ "CMake options", "md_content_cmake_options.html", [
       [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
       [ "Dependencies", "md_content_cmake_options.html#autotoc_md3", null ]
+    ] ],
+    [ "Installation", "md_content_install_instructions.html", [
+      [ "Prerequists", "md_content_install_instructions.html#autotoc_md5", null ],
+      [ "Using the HPCBuildInfrastructure", "md_content_install_instructions.html#autotoc_md6", [
+        [ "Build cmake", "md_content_install_instructions.html#autotoc_md7", null ],
+        [ "Build HPX", "md_content_install_instructions.html#autotoc_md8", null ],
+        [ "Build Blaze and blaze_iterative", "md_content_install_instructions.html#autotoc_md9", null ],
+        [ "Build VTK", "md_content_install_instructions.html#autotoc_md10", null ],
+        [ "Build VTK", "md_content_install_instructions.html#autotoc_md11", null ],
+        [ "Build NLMech", "md_content_install_instructions.html#autotoc_md12", null ]
+      ] ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -67,13 +78,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classfe_1_1TriElem.html#ababf2fd56dbfa0d40e8808ee6526c5f2",
-"classmaterial_1_1pd_1_1RNPBond.html#a2a4b964b8e30bfaa2f8645bc5e7f9c2c",
-"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565",
-"namespacerw_1_1reader.html#ae911e20d8494352c2de082b59dc88f11",
-"structinp_1_1MatData.html#a51cdc2a12304fb5fb9721ecfc06f6c03",
-"structutil_1_1Point3.html#af24cb3d6189870356c1be3a5a29dc713"
+"Config_8h_source.html",
+"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
+"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
+"dampingGeom_8h_source.html",
+"namespacerw_1_1reader.html#aac429b09d673ed8da41a6d321c8dd6e1",
+"structinp_1_1MatData.html#a25dde9c5e5597dafe1b20f997bbf8be1",
+"structutil_1_1Point3.html#abfb0ab1f5343f1623397a84edd695d5a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
