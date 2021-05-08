@@ -25,16 +25,21 @@
 var NAVTREE =
 [
   [ "NLMech", "index.html", [
-    [ "Getting started", "index.html#autotoc_md14", [
-      [ "Building", "index.html#autotoc_md15", null ],
-      [ "Ruining the code", "index.html#autotoc_md16", null ]
+    [ "Introduction", "index.html#autotoc_md14", null ],
+    [ "Documentation and getting started", "index.html#autotoc_md15", null ],
+    [ "Installation", "index.html#autotoc_md16", [
+      [ "Dependencies", "index.html#autotoc_md17", null ],
+      [ "Building dependencies", "index.html#autotoc_md18", null ],
+      [ "Compiling library", "index.html#autotoc_md19", null ]
     ] ],
-    [ "Documentation", "index.html#autotoc_md17", null ],
-    [ "Releases", "index.html#autotoc_md18", null ],
-    [ "Code of conduct", "index.html#autotoc_md19", null ],
-    [ "Contributing", "index.html#autotoc_md20", null ],
-    [ "Citing", "index.html#autotoc_md21", null ],
-    [ "Acknowledgments", "index.html#autotoc_md22", null ],
+    [ "Running NLMech", "index.html#autotoc_md20", null ],
+    [ "Trouble, issues, bugs", "index.html#autotoc_md21", null ],
+    [ "Releases", "index.html#autotoc_md22", null ],
+    [ "Code of conduct", "index.html#autotoc_md23", null ],
+    [ "Contributing", "index.html#autotoc_md24", null ],
+    [ "Citing", "index.html#autotoc_md25", null ],
+    [ "Acknowledgments", "index.html#autotoc_md26", null ],
+    [ "References", "index.html#autotoc_md27", null ],
     [ "CMake options", "md_content_cmake_options.html", [
       [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
@@ -81,13 +86,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classfe_1_1TriElem.html#ababf2fd56dbfa0d40e8808ee6526c5f2",
-"classmaterial_1_1pd_1_1RNPBond.html#a2a4b964b8e30bfaa2f8645bc5e7f9c2c",
-"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565",
-"namespacerw_1_1reader.html#a809c0856da41218f67c61b7d21f68464",
-"structinp_1_1MatData.html#a0f3e68c535e66c2419dd85307043cb2c",
-"structutil_1_1Point3.html#a9bd3abb1e6985140d97c360f6ff6df04"
+"Config_8h_source.html",
+"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
+"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
+"dampingGeom_8h_source.html",
+"namespacerw_1_1reader.html#a647a1916f5c27c85d4961fcf973b9d5b",
+"structinp_1_1MassMatrixDeck.html#ac244a8a5433a8d8ab8584e910acc573c",
+"structutil_1_1Point3.html#a91f668bc8937cb699feb4c72e5635558"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
