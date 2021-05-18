@@ -163,7 +163,7 @@ Building dependencies</h2>
 <li>to build dependencies and the code on Ubuntu-20.04, see <a href="https://github.com/nonlocalmodels/buildscripts/blob/main/Docker/FedoraAll">Build Dependencies and Code on Ubuntu</a>.</li>
 </ul>
 <p>In <a href="https://github.com/nonlocalmodels/HPCBuildInfrastructure">Scripts</a>, bash scripts to build individual dependencies such as blaze, vtk, hpx, etc, on HPC systems is provided.</p>
-<p>A more detailed instructions on building the code will follow soon.</p>
+<p>A more detailed version of the build instruction is available <a href="https://nonlocalmodels.github.io/documentation/md_content_install_instructions.html">here</a>.</p>
 <blockquote class="doxtable">
 <p>:exclamation: We recommend to use the same CMake version to build the HPX and NLMech. </p>
 </blockquote>
@@ -198,6 +198,10 @@ Compiling library</h2>
 Running NLMech</h1>
 <p>To quickly run the tests and examples, you may use Docker image with the <a href="https://hub.docker.com/r/diehlpk/nlmech/tags?page=1&amp;ordering=last_updated">latest Successful build</a> of the main branch.</p>
 <p>In <a href="https://nonlocalmodels.github.io/examples/">examples</a>, we provide information on how to prepare a simulation setup input file using <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a>.</p>
+<p>Asume, you have build NLMech on your own, you can go the the <code>build</code> folder and run the executable as below</p>
+<div class="fragment"><div class="line">cd build</div>
+<div class="line">./bin/NLMech -i input.yaml --hpx:threads=n</div>
+</div><!-- fragment --><p>with the first argument <code>-i</code> the <code>input.yaml</code> file is specified and the second argument <code>--hpx:threads</code> the amount of CPU cores HPX is allowed to use is specified. If you do not specify any number there all coes of the CPU are used to run the simulation.</p>
 <h1><a class="anchor" id="autotoc_md21"></a>
 Trouble, issues, bugs</h1>
 <p>In case you found a bug in the library, want to contribute, or need a feature, please create a new <a href="https://github.com/nonlocalmodels/NLMech/issues">issue</a>.</p>
