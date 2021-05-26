@@ -197,7 +197,14 @@ Compiling library</h2>
 </div><!-- fragment --><h1><a class="anchor" id="autotoc_md20"></a>
 Running NLMech</h1>
 <p>To quickly run the tests and examples, you may use Docker image with the <a href="https://hub.docker.com/r/diehlpk/nlmech/tags?page=1&amp;ordering=last_updated">latest Successful build</a> of the main branch.</p>
-<p>In <a href="https://nonlocalmodels.github.io/examples/">examples</a>, we provide information on how to prepare a simulation setup input file using <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a>.</p>
+<div class="fragment"><div class="line">podman/docker pull diehlpk/nlmech:latest</div>
+<div class="line">podman/docker run -it docker.io/diehlpk/nlmech /bin/bash</div>
+<div class="line">cd examples/qsModel/1D</div>
+<div class="line"># Generate the mesh file</div>
+<div class="line">/app/NLMech/build/bin/mesh -i input_mesh.yaml -d 1</div>
+<div class="line"># Run the simulation</div>
+<div class="line">/app/NLMech/build/bin/NLMech -i input.yaml --hpx:threads=2</div>
+</div><!-- fragment --><p>In <a href="https://nonlocalmodels.github.io/examples/">examples</a>, we provide information on how to prepare a simulation setup input file using <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html">YAML</a>.</p>
 <p>Asume, you have build NLMech on your own, you can go the the <code>build</code> folder and run the executable as below</p>
 <div class="fragment"><div class="line">cd build</div>
 <div class="line">./bin/NLMech -i input.yaml --hpx:threads=n</div>
