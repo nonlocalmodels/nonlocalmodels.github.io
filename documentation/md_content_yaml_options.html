@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>NLMech: Related Pages</title>
+<title>NLMech: Configuration file</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('pages.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_content_yaml_options.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -82,20 +82,53 @@ $(document).ready(function(){initNavTree('pages.html',''); initResizable(); });
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Related Pages</div>  </div>
+<div class="title">Configuration file </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all related documentation pages:</div><div class="directory">
-<table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md_content_cmake_options.html" target="_self">CMake options</a></td><td class="desc"></td></tr>
-<tr id="row_1_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md_content_install_instructions.html" target="_self">Installation</a></td><td class="desc"></td></tr>
-<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md_content_yaml_options.html" target="_self">Configuration file</a></td><td class="desc"></td></tr>
-<tr id="row_3_"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="todo.html" target="_self">Todo List</a></td><td class="desc"></td></tr>
-</table>
-</div><!-- directory -->
-</div><!-- contents -->
+<div class="textblock"><p>We use the <a href="https://de.wikipedia.org/wiki/YAML">YAML</a> file format for the configuration files. For more details on the YAML file format, we refer to this <a href="https://gettaurus.org/docs/YAMLTutorial/">tutorial</a>. Here, we introduce the option of within the YAMl file to control the simulation. <br  />
+</p>
+<h1><a class="anchor" id="autotoc_md14"></a>
+Mesh generation</h1>
+<p>To generate a mesh the tool [mesh]() is provided and it is used as</p>
+<div class="fragment"><div class="line">mesh -i input_mesh.yaml -d 1</div>
+</div><!-- fragment --><p>where <code>-d</code> specify the dimension of the problem and <code>-i</code> specifies the YAML fine with the mesh information. Let us look at the <a href="https://github.com/nonlocalmodels/NLMech/tree/main/examples/qsModel/1D">example</a> for the one-dimensional implicit time integration example:</p>
+<div class="fragment"><div class="line">Output:</div>
+<div class="line">  Path: ./</div>
+<div class="line">  Mesh: mesh</div>
+<div class="line">  File_Format: vtu</div>
+<div class="line">Domain:</div>
+<div class="line">  - 0.</div>
+<div class="line">  - 16</div>
+<div class="line">Horizon: 2</div>
+<div class="line">Horizon_h_Ratio: 4 </div>
+<div class="line">Compress_Type: zlib</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md15"></a>
+Output</h2>
+<p>The tag <code>Output</code> describes details about the generate <code>.vtu</code> files using the following attributes:</p>
+<ul>
+<li><code>Path:</code> Describes the path where the generated mesh is written. Using the value <code>./</code> means the file will be written in the folder where the executable <code>mesh</code> was executed.</li>
+<li><code>Mesh:</code> Describes the name of the generated file.</li>
+<li><code>File_Format</code>: Describes the file format of the generated file, e.g. <code>vtu</code> and <code>gmsh</code>. For the <code>vtu</code> file format we refer to the <a href="https://vtk.org/wp-content/uploads/2015/04/file-formats.pdf">VTK</a> file format documentation and for the <code>gmsh</code> file format to the <a href="http://www.manpagez.com/info/gmsh/gmsh-2.2.6/gmsh_63.php">Gmsh</a> documentation.</li>
+<li><code>Compress_Type</code> Describes the compression type of the generated file.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Domain</h2>
+<p>The tag <code>Domain</code> describes the simulation domain using the following attributes:</p>
+<ul>
+<li>The dashes <code>-</code> list the first point and the last point of the domain</li>
+<li><code>Horizon</code> Describes the length of the horizon as an integer</li>
+<li><code>Horizon_h_Ratio</code> Describes the number of nodes within the horizon</li>
+</ul>
+<p>For more complex geometries, the <a href="https://gmsh.info/">Gmsh</a> tool is recommended. Further examples are available <a href="https://nonlocalmodels.github.io/examples/">here</a>.</p>
+<h3>References</h3>
+<ul>
+<li>C. Geuzaine and J.-F. Remacle. Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities. International Journal for Numerical Methods in Engineering 79(11), pp. 1309-1331, 2009.</li>
+<li>W. Schroeder, Ken Martin, and Bill Lorensen, Visualization Toolkit: An Object-Oriented Approach to 3D Graphics, 4th Edition </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
