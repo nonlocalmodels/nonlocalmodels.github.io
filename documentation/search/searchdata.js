@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "imsv",
   6: "o",
   7: "egi",
-  8: "cint"
+  8: "bcint"
 };
 
 var indexSectionNames =

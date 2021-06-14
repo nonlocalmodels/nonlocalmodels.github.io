@@ -25,21 +25,21 @@
 var NAVTREE =
 [
   [ "NLMech", "index.html", [
-    [ "Introduction", "index.html#autotoc_md18", null ],
-    [ "Documentation and getting started", "index.html#autotoc_md19", null ],
-    [ "Installation", "index.html#autotoc_md20", [
-      [ "Dependencies", "index.html#autotoc_md21", null ],
-      [ "Building dependencies", "index.html#autotoc_md22", null ],
-      [ "Compiling library", "index.html#autotoc_md23", null ]
+    [ "Introduction", "index.html#autotoc_md22", null ],
+    [ "Documentation and getting started", "index.html#autotoc_md23", null ],
+    [ "Installation", "index.html#autotoc_md24", [
+      [ "Dependencies", "index.html#autotoc_md25", null ],
+      [ "Building dependencies", "index.html#autotoc_md26", null ],
+      [ "Compiling library", "index.html#autotoc_md27", null ]
     ] ],
-    [ "Running NLMech", "index.html#autotoc_md24", null ],
-    [ "Trouble, issues, bugs", "index.html#autotoc_md25", null ],
-    [ "Releases", "index.html#autotoc_md26", null ],
-    [ "Code of conduct", "index.html#autotoc_md27", null ],
-    [ "Contributing", "index.html#autotoc_md28", null ],
-    [ "Citing", "index.html#autotoc_md29", null ],
-    [ "Acknowledgments", "index.html#autotoc_md30", null ],
-    [ "References", "index.html#autotoc_md31", null ],
+    [ "Running NLMech", "index.html#autotoc_md28", null ],
+    [ "Trouble, issues, bugs", "index.html#autotoc_md29", null ],
+    [ "Releases", "index.html#autotoc_md30", null ],
+    [ "Code of conduct", "index.html#autotoc_md31", null ],
+    [ "Contributing", "index.html#autotoc_md32", null ],
+    [ "Citing", "index.html#autotoc_md33", null ],
+    [ "Acknowledgments", "index.html#autotoc_md34", null ],
+    [ "References", "index.html#autotoc_md35", null ],
     [ "CMake options", "md_content_cmake_options.html", [
       [ "NLMech", "md_content_cmake_options.html#autotoc_md1", null ],
       [ "General options", "md_content_cmake_options.html#autotoc_md2", null ],
@@ -61,6 +61,11 @@ var NAVTREE =
         [ "Output", "md_content_yaml_options.html#autotoc_md15", null ],
         [ "Domain", "md_content_yaml_options.html#autotoc_md16", null ]
       ] ]
+    ] ],
+    [ "Brief overview of the equations", "md_content_equations.html", [
+      [ "Governing equations", "md_content_equations.html#autotoc_md18", null ],
+      [ "Discretization", "md_content_equations.html#autotoc_md19", null ],
+      [ "References", "md_content_equations.html#autotoc_md20", null ]
     ] ],
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -92,13 +97,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Config_8h_source.html",
-"classfe_1_1TriElem.html#af9752d0cc25622f593ee8ac19fd990b3",
-"classmaterial_1_1pd_1_1RNPBond.html#a555780b70d1ccc1baed1e530a6925b78",
-"dampingGeom_8h_source.html",
-"namespacerw_1_1reader.html#a4390356883ad2a4f14cb41c69cf3e5ca",
-"structinp_1_1MassMatrixDeck.html",
-"structutil_1_1Point3.html#a85506846788d7bf17cd4e81a5fb80957"
+"",
+"classfe_1_1TriElem.html#ababf2fd56dbfa0d40e8808ee6526c5f2",
+"classmaterial_1_1pd_1_1RNPBond.html#a2a4b964b8e30bfaa2f8645bc5e7f9c2c",
+"classutil_1_1StateBasedHelperFunctions.html#a62a2fb2d49ebeb06a564838d0f6c3565",
+"namespacerw.html#ae13bdc8b386702991f4fe7c4367c29ac",
+"structinp_1_1InteriorFlagsDeck.html#afb319b6b12dbc06fca5a2fe311d473c8",
+"structutil_1_1Point3.html#a66b31ab6850079a070a8121fb4e40ff0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
