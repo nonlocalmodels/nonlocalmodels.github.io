@@ -208,7 +208,7 @@ Running NLMech</h1>
 <p>Asume, you have build NLMech on your own, you can go the the <code>build</code> folder and run the executable as below</p>
 <div class="fragment"><div class="line">cd build</div>
 <div class="line">./bin/NLMech -i input.yaml --hpx:threads=n</div>
-</div><!-- fragment --><p>with the first argument <code>-i</code> the <code>input.yaml</code> file is specified and the second argument <code>--hpx:threads</code> the amount of CPU cores HPX is allowed to use is specified. If you do not specify any number there all coes of the CPU are used to run the simulation.</p>
+</div><!-- fragment --><p>with the first argument <code>-i</code> the <code>input.yaml</code> file is specified and the second argument <code>--hpx:threads</code> the amount of CPU cores HPX is allowed to use is specified. If you do not specify any number there all coes of the CPU are used to run the simulation. Note that in the current version only shared memory parallism is provided, however, we plan to add dsitributed memory to the code in the near future.</p>
 <h1><a class="anchor" id="autotoc_md25"></a>
 Trouble, issues, bugs</h1>
 <p>In case you found a bug in the library, want to contribute, or need a feature, please create a new <a href="https://github.com/nonlocalmodels/NLMech/issues">issue</a>.</p>
