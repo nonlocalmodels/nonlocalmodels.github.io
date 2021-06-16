@@ -19,3 +19,5 @@ Restart:
   Step: 1500
 ```
 
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/restart/restart.yaml).
+

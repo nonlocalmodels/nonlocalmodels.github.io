@@ -31,3 +31,5 @@ will generate the regular mesh in the figure where the nodes are colored with th
 <p id="mesh" align="center">
     <img src="{{ site.url }}/assets/img/tool-mesh.png" alt="setup"  />
 </p>
+
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/qsModel/2D/input_mesh.yaml). 
