@@ -30,7 +30,7 @@ title: Deformation of 2-d Logo - 2
 
 - We specify `Displacement`, `Velocity`, `Force` and `Damage_Z` as output candidates. 
 
-The complete YAML configuration file is available [here]().
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/logo2/input.yaml).
 
 ### Mesh
 We obtain mesh using `Gmsh` library with mesh size `h = 0.025`. 

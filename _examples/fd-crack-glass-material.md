@@ -58,10 +58,15 @@ title: Crack propagation in Glass material
 
 - We specify `Displacement`, `Velocity`, `Force` and `Damage_Z` as output candidates. 
 
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/crack_propagation/input.yaml).
+
 ### Mesh
 We consider uniform mesh of mesh size `h = $\epsilon$/4`. 
 
 - To generate uniform mesh, run [Mesh](../../../tools/mesh/mesh.cpp) with input file `input_mesh.yaml`. It will produce `mesh.vtu` which is needed to run the simulation, see `input.yaml` file where mesh input details are provided.
+
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/crack_propagation/input_mesh.yaml).
+
 
 ### Results
 We show setup, displacement, and damage plot at time `t = 0.000058 seconds`. Results are from paper [Lipton et al 2019](https://doi.org/10.1007/s42102-019-00010-0).

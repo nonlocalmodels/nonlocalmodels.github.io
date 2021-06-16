@@ -4,7 +4,6 @@ title: Restart a simulation
 #permalink: /examples/
 ---
 
-
 Sometimes it can be convenient to restart a simulation after a crash or to restricted queue limits on a cluster. 
 Imagine your code ran and the output file `output_3.vtu` was succesfully writen.
 By adding a new tag `Restart` to the intital configuration file and specifying the path to the last output file using 
