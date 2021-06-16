@@ -13,6 +13,9 @@ title: Recovering the 1D material properties
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+This example shows that simulations recovers the the strain and stress predicted by classical continnums mechanics for a given load in force. The full example is shown in the following publication:
+
+* Diehl, P., Jha, P.K., Kaiser, H. et al. An asynchronous and task-based implementation of peridynamics utilizing HPX—the C++ standard library for parallelism and concurrency. SN Appl. Sci. 2, 2144 (2020). [https://doi.org/10.1007/s42452-020-03784-x](https://doi.org/10.1007/s42452-020-03784-x).
 
 
 ## Generating the mesh
