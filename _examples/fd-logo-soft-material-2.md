@@ -13,7 +13,7 @@ title: Deformation of 2-d Logo - 2
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   
- ** Note that this example here shows no real scientific application and its purpose was to generate the code's logo. **
+ **Note that this example here shows no real scientific application and its purpose was to generate the code's logo.**
 
 
 - The setup is same as in the [first Logo example](fd-logo-soft-material.html) except the boundary condition. 

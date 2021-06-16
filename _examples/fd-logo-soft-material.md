@@ -13,7 +13,7 @@ title: Deformation of 2-d Logo
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-** Note that this example here shows no real scientific application and its purpose was to generate the code's logo.**  
+**Note that this example here shows no real scientific application and its purpose was to generate the code's logo.**  
 
 - We consider a Peridynamic simulation of Soft material using RNP Peridynamic model (Regularized Nonlinear Peridynamic) developed and studied in [Lipton 2016](https://link.springer.com/article/10.1007/s10659-015-9564-z) and [Jha and Lipton 2018](https://doi.org/10.1137/17M1112236). RNP model is implemented in class [RNPBond](../../../src/material/pd/rnpBond.h).
 
