@@ -12,7 +12,8 @@ title: Deformation of 2-d Logo
     });
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-  
+
+<center> Note that this example here shows no real scientific application and its purpose was to generate the code's logo. </center>   
 
 - We consider a Peridynamic simulation of Soft material using RNP Peridynamic model (Regularized Nonlinear Peridynamic) developed and studied in [Lipton 2016](https://link.springer.com/article/10.1007/s10659-015-9564-z) and [Jha and Lipton 2018](https://doi.org/10.1137/17M1112236). RNP model is implemented in class [RNPBond](../../../src/material/pd/rnpBond.h).
 
@@ -47,6 +48,8 @@ title: Deformation of 2-d Logo
 	- Force is given by $f_x(x,y,t) = f t sin(n\pi x/L_x)$ where `n = 3` and `f = 1.5E+09`.
 
 - We specify `Displacement`, `Velocity`, `Force` and `Damage_Z` as output candidates. 
+
+The complete YAML configuration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/logo/input.yaml).
 
 ### Mesh
 We obtain mesh using `Gmsh` library with mesh size `h = 0.025`. 

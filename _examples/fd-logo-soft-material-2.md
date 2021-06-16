@@ -13,6 +13,8 @@ title: Deformation of 2-d Logo - 2
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   
+  <center> Note that this example here shows no real scientific application and its purpose was to generate the code's logo. </center> 
+
 
 - The setup is same as in the [first Logo example](fd-logo-soft-material.html) except the boundary condition. 
 
@@ -27,6 +29,8 @@ title: Deformation of 2-d Logo - 2
 	- Force is given by $f_y(x,y,t) = f t sin(n\pi y/L_y)$ where `n = 2` and `f = 1.5E+09`.
 
 - We specify `Displacement`, `Velocity`, `Force` and `Damage_Z` as output candidates. 
+
+The complete YAML configuration file is available [here]().
 
 ### Mesh
 We obtain mesh using `Gmsh` library with mesh size `h = 0.025`. 
