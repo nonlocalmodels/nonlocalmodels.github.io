@@ -12,7 +12,12 @@ title: Crack propagation in Glass material
     });
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-  
+
+This example shows the setup and configuration of the example shown in the following paper:
+
+* Lipton, R.P., Lehoucq, R.B. & Jha, P.K. Complex Fracture Nucleation and Evolution with Nonlocal Elastodynamics. J Peridyn Nonlocal Model 1, 122–130 (2019). [https://doi.org/10.1007/s42102-019-00010-0](https://doi.org/10.1007/s42102-019-00010-0)
+
+Following steps explain the example and the YAML donfiguration file is available [here](https://github.com/nonlocalmodels/NLMech/blob/main/examples/fdModel/crack_propagation/input.yaml).
 
 - We consider a Peridynamic simulation of Glass material using RNP Peridynamic model (Regularized Nonlinear Peridynamic) developed and studied in [Lipton 2016](https://link.springer.com/article/10.1007/s10659-015-9564-z) and [Jha and Lipton 2018](https://doi.org/10.1137/17M1112236). RNP model is implemented in class [RNPBond](../../../src/material/pd/rnpBond.h).
 
