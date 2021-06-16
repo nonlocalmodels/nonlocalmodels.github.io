@@ -122,6 +122,177 @@ Domain</h2>
 <li><code>Horizon_h_Ratio</code> Describes the number of nodes within the horizon</li>
 </ul>
 <p>For more complex geometries, the <a href="https://gmsh.info/">Gmsh</a> tool is recommended. Further examples are available <a href="https://nonlocalmodels.github.io/examples/">here</a>.</p>
+<h1><a class="anchor" id="autotoc_md17"></a>
+Simulation</h1>
+<p>Here, all tags and attributes of the YAML files are listed and described. A detailed set of examples is available <a href="https://nonlocalmodels.github.io/examples/">here</a>.</p>
+<h2><a class="anchor" id="autotoc_md18"></a>
+Model deck</h2>
+<p>Example of a model deck:</p>
+<div class="fragment"><div class="line">Model:</div>
+<div class="line">  Dimension: 2</div>
+<div class="line">  Discretization_Type:</div>
+<div class="line">    Spatial: finite_difference</div>
+<div class="line">    Time: velocity_verlet</div>
+<div class="line">  Final_Time: 0.001000</div>
+<div class="line">  Time_Steps: 50000</div>
+<div class="line">  Horizon: 0.002000</div>
+<div class="line">  Horizon_h_Ratio: 4</div>
+</div><!-- fragment --><p>The tag <code>Model</code> describes the model with following attributes:</p>
+<ul>
+<li><code>Dimension</code> Defines the dimension of the problem, e.g. one-dimensional</li>
+<li><code>Discretization_Type</code> Describes the discretization in time and space<ul>
+<li><code>Time</code> Defines if a central difference scheme <code>central_difference</code> or a velocity verlet <code>velocity_verlet</code> scheme is used for the discretization in time</li>
+<li><code>Spatial</code> Defines if a finite difference <code>finite_difference</code> scheme is used</li>
+</ul>
+</li>
+<li><code>Horizon</code> Defines the horizon</li>
+<li><code>Horizon_h_Ratio</code> Defines the ratio of nodes with the distance of h in the horizon</li>
+<li><code>Mesh_Size</code> Defines the mesh size h</li>
+<li><code>Final_Time</code> Defines the final time</li>
+<li><code>Time_Steps</code> Defines the amount of time steps</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md19"></a>
+Restart</h2>
+<p>Example of a <code>Restart</code> deck:</p>
+<div class="fragment"><div class="line">Restart:</div>
+<div class="line">  File: out/output_3.vtu</div>
+<div class="line">  Step: 1500</div>
+</div><!-- fragment --><p>The tag <code>Restart</code> describes a restart of the simulation using following attributes:</p>
+<ul>
+<li><code>File</code> The path and file name of the last Successful simulation step</li>
+<li><code>Step</code> The time step to restart from</li>
+</ul>
+<p>One example of the restart of one simulation is available <a href="https://nonlocalmodels.github.io/examples/restart.html">here</a>.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Mesh</h2>
+<p>Example of a <code>Mesh</code> deck:</p>
+<div class="fragment"><div class="line">Mesh:</div>
+<div class="line">  File: mesh.vtu</div>
+<div class="line">  Keep_Element_Conn: true</div>
+</div><!-- fragment --><p>The tag <code>Mesh</code> describes the mesh of the simulation using following attributes:</p>
+<ul>
+<li><code>File</code> Path and file name to the mesh either in the gmsh or vtu file format.</li>
+<li><code>Keep_Element_Conn</code> Keep the mesh information available</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md21"></a>
+Output</h2>
+<p>Example of a <code>Output</code> deck</p>
+<div class="fragment"><div class="line">Output:</div>
+<div class="line">  Path: out_top_bottom_const/</div>
+<div class="line">  Tags:</div>
+<div class="line">    - Displacement</div>
+<div class="line">    - Velocity</div>
+<div class="line">    - Force</div>
+<div class="line">    - Damage_Z</div>
+<div class="line">  Output_Interval: 500</div>
+<div class="line">  Compress_Type: zlib</div>
+<div class="line">  Perform_FE_Out: true</div>
+</div><!-- fragment --><p>The tag <code>Output</code> describes the mesh of the simulation using following attributes:</p>
+<ul>
+<li><code>File_Format</code> Specifies if the gmsh or vtu file format is used</li>
+<li><code>Path</code> Defines the path were the output is written to</li>
+<li><code>Compress_Type</code> Defines the compression type for the vtu file (<code>zlib</code> or <code>ascii</code>)</li>
+<li><code>Output_Interval</code> Defines the interval a output file is written</li>
+<li><code>Tag</code> Defines the field appended to the out file. The mesh is always added and all other simulation data needs to be listed.</li>
+<li><code>Perform_FE_Out</code> Store the mesh information in the output</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Boundary conditions</h2>
+<h3>Displacement boundary conditions</h3>
+<p>Example of a <code>Displacement_BC</code> deck</p>
+<div class="fragment"><div class="line">Displacement_BC:</div>
+<div class="line">  Sets: 1</div>
+<div class="line">  Set_1:</div>
+<div class="line">    Location:</div>
+<div class="line">      Rectangle: [0.000000e+00, 9.900000e-02, 1.000000e-01, 1.000000e-01]</div>
+<div class="line">    Direction: [1,2]</div>
+<div class="line">    Time_Function:</div>
+<div class="line">      Type: constant</div>
+<div class="line">      Parameters:</div>
+<div class="line">        - 0.0</div>
+<div class="line">    Spatial_Function:</div>
+<div class="line">      Type: constant</div>
+<div class="line">      Parameter: [1]</div>
+</div><!-- fragment --><p>The tag <code>Displacement_BC</code> describes the displacement boundary conditions and the attribute <code>Sets</code> specifies the amount of boundary conditions. If boundary conditions is defined by <code>Set_1</code>, <code>Set_2</code>, and so on using following attributes:</p>
+<ul>
+<li><code>Location</code> Defines the location of the boundary condition<ul>
+<li><code>Line: [ a, b ]</code> Applies the boundary condition along the line from <code>a</code> to <code>b</code></li>
+<li><code>Rectangle: [a, b, c, d]</code> Applies the boundary condition on all nodes inside the rectangle given by the two points <code>(a,b)</code> and <code>c,d)</code> <br  />
+</li>
+</ul>
+</li>
+<li><code>Direction: [n]</code> Defines the direction (x=1, y=2, or z=3) of the boundary condition</li>
+<li><code>Time_Function</code> Specifies how the boundary condition is applied over time<ul>
+<li><code>Type</code> Defines the type of loading</li>
+<li><code>Parameters</code> Defines the corresponding parameter of the load</li>
+</ul>
+</li>
+<li><code>Spatial_Function</code> Specifies how the boundary condition is applied in space<ul>
+<li><code>Type</code> Defines the type of loading</li>
+<li><code>Parameters</code> Defines the corresponding parameter of the load</li>
+</ul>
+</li>
+</ul>
+<h3>Force boundary conditions</h3>
+<p>Example of a <code>Force_BC</code> deck:</p>
+<div class="fragment"><div class="line">Force_BC:</div>
+<div class="line">  Sets: 2</div>
+<div class="line">  Set_1:</div>
+<div class="line">    Location:</div>
+<div class="line">      Rectangle: [0, 0, 0.1, 0.002]</div>
+<div class="line">    Direction: [2]</div>
+<div class="line">    Time_Function:</div>
+<div class="line">      Type: linear</div>
+<div class="line">      Parameters:</div>
+<div class="line">        - -5000000000.0</div>
+<div class="line">    Spatial_Function:</div>
+<div class="line">      Type: constant</div>
+<div class="line">      Parameters: [1]</div>
+<div class="line">  Set_2:</div>
+<div class="line">    Location:</div>
+<div class="line">      Rectangle: [0, 0.098, 0.1, 0.1]</div>
+<div class="line">    Direction: [2]</div>
+<div class="line">    Time_Function:</div>
+<div class="line">      Type: linear</div>
+<div class="line">      Parameters:</div>
+<div class="line">        - 5000000000.0</div>
+<div class="line">    Spatial_Function:</div>
+<div class="line">      Type: constant</div>
+<div class="line">      Parameters: [1]</div>
+</div><!-- fragment --><p>The tag <code>Force_BC</code> describes the displacement boundary conditions and the attribute <code>Sets</code> specifies the amount of boundary conditions. If boundary conditions is defined by <code>Set_1</code>, <code>Set_2</code>, and so on using following attributes:</p>
+<ul>
+<li><code>Location</code> Defines the location of the boundary condition<ul>
+<li><code>Line: [ a, b ]</code> Applies the boundary condition along the line from <code>a</code> to <code>b</code></li>
+<li><code>Rectangle: [a, b, c, d]</code> Applies the boundary condition on all nodes inside the rectangle given by the two points <code>(a,b)</code> and <code>c,d)</code> <br  />
+</li>
+</ul>
+</li>
+<li><code>Direction: [n]</code> Defines the direction (x=1, y=2, or z=3) of the boundary condition</li>
+<li><code>Time_Function</code> Specifies how the boundary condition is applied over time<ul>
+<li><code>Type</code> Defines the type of loading</li>
+<li><code>Parameters</code> Defines the corresponding parameter of the load</li>
+</ul>
+</li>
+<li><code>Spatial_Function</code> Specifies how the boundary condition is applied in space<ul>
+<li><code>Type</code> Defines the type of loading</li>
+<li><code>Parameters</code> Defines the corresponding parameter of the load</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md23"></a>
+Fracture</h2>
+<p>Example of a <code>Fracture</code> deck:</p>
+<div class="fragment"><div class="line">Fracture:</div>
+<div class="line">  Cracks:</div>
+<div class="line">    Sets: 1</div>
+<div class="line">    Set_1:</div>
+<div class="line">      Orientation: -1</div>
+<div class="line">      Line: [5.000500e-02, 0.000000e+00, 5.000500e-02, 2.000000e-02]</div>
+</div><!-- fragment --><p>The tag <code>Fracture</code> describes the displacement boundary conditions and the attribute <code>Sets</code> specifies the amount of boundary conditions. If boundary conditions is defined by <code>Set_1</code>, <code>Set_2</code>, and so on using following attributes:</p>
+<ul>
+<li><code>Orientation</code> Describes the orientation of the crack</li>
+<li><code>Line</code> Describes a line and all bonds interesting this line are initially broken</li>
+</ul>
 <h3>References</h3>
 <ul>
 <li>C. Geuzaine and J.-F. Remacle. Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities. International Journal for Numerical Methods in Engineering 79(11), pp. 1309-1331, 2009.</li>
