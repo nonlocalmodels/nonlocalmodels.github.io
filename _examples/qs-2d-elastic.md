@@ -13,6 +13,11 @@ title: Validating the state-basd elastic model (2D)
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+This example shows that the simulations recovers the discplacement predicted by classical continnums mechanics for a given load in force. The full example is shown in the following publication:
+
+* Diehl, P., Jha, P.K., Kaiser, H. et al. An asynchronous and task-based implementation of peridynamics utilizing HPX—the C++ standard library for parallelism and concurrency. SN Appl. Sci. 2, 2144 (2020). [https://doi.org/10.1007/s42452-020-03784-x](https://doi.org/10.1007/s42452-020-03784-x).
+
+
 ## Generating the mesh
 
 The file [input_mesh.yaml](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/2D/input_mesh.yaml) in the [example folder](https://github.com/nonlocalmodels/NLMech/tree/master/examples/qsModel/2D) will generate the mesh as shown in the following figure.
