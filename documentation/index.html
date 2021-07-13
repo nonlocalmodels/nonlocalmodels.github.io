@@ -199,7 +199,7 @@ Running NLMech</h1>
 <p>To quickly run the tests and examples, you may use Docker image with the <a href="https://hub.docker.com/r/diehlpk/nlmech/tags?page=1&amp;ordering=last_updated">latest Successful build</a> of the main branch.</p>
 <div class="fragment"><div class="line">podman/docker pull diehlpk/nlmech:latest</div>
 <div class="line">podman/docker run -it docker.io/diehlpk/nlmech /bin/bash</div>
-<div class="line">cd examples/qsModel/1D</div>
+<div class="line">cd /app/NLMech/examples/qsModel/1D</div>
 <div class="line"># Generate the mesh file</div>
 <div class="line">/app/NLMech/build/bin/mesh -i input_mesh.yaml -d 1</div>
 <div class="line"># Run the simulation</div>
@@ -209,6 +209,7 @@ Running NLMech</h1>
 <div class="fragment"><div class="line">cd build</div>
 <div class="line">./bin/NLMech -i input.yaml --hpx:threads=n</div>
 </div><!-- fragment --><p>with the first argument <code>-i</code> the <code>input.yaml</code> file is specified and the second argument <code>--hpx:threads</code> the amount of CPU cores HPX is allowed to use is specified. If you do not specify any number there all coes of the CPU are used to run the simulation. Note that in the current version only shared memory parallism is provided, however, we plan to add dsitributed memory to the code in the near future.</p>
+<p>The one-dimensional quasi-static example is computational inexpesive, therfore, we used it in the Docker example to finish the simulation soon. For scaling test, we recommend to use any of the two-dimensional examples.</p>
 <h1><a class="anchor" id="autotoc_md36"></a>
 Trouble, issues, bugs</h1>
 <p>In case you found a bug in the library, want to contribute, or need a feature, please create a new <a href="https://github.com/nonlocalmodels/NLMech/issues">issue</a>.</p>
