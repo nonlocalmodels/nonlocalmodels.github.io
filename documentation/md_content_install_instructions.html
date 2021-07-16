@@ -91,38 +91,54 @@ $(document).ready(function(){initNavTree('md_content_install_instructions.html',
 <p>In this installation guide, we will use a set of <a href="https://github.com/nonlocalmodels/HPCBuildInfrastructure">scripts</a> to build the code on HPC clusters.</p>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Prerequisites</h1>
-<ul>
-<li>Any gcc compiler collection (gcc) &gt; 4.9, however, gcc &gt;= 8 is recommended</li>
-<li>Lapack and BLAS are required. Here, we recommend to install these libraries using the package manager.</li>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Tools</h2>
+<p>To compile NLMech and its dependencies the following tools are needed:</p><ul>
+<li>GCC compiler collection (gcc) &gt; 4.9, however, gcc &gt;= 8 is recommended</li>
+<li><a href="https://www.gnu.org/software/autoconf/">autoconf</a></li>
+<li><a href="https://www.gnu.org/software/wget/">wget</a></li>
+<li><a href="https://cmake.org/">cmake</a></li>
+<li><a href="https://git-scm.com/">git</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Dependencies</h2>
+<ul>
+<li><a href="http://www.netlib.org/lapack/">Lapack</a></li>
+<li><a href="http://www.netlib.org/blas/">BLAS</a></li>
+<li><a href="https://www.openssl.org/">Openssl</a></li>
+<li><a href="https://www.opengl.org/">OpenGL</a></li>
+</ul>
+<p>We recommend to install these libraries using the package manager. Bewlow you can find some examples to install them using apt and dnf</p>
+<div class="fragment"><div class="line">apt-get install build-essential git wget cmake libssl-dev libblas-dev liblapack-dev autoconf freeglut3-dev</div>
+</div><!-- fragment --><div class="fragment"><div class="line">dnf install @development-tools cmake git wget blas-devel lapack-devel freeglut-devel</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md8"></a>
 Using the HPCBuildInfrastructure</h1>
 <p>First, we clone the <a href="https://github.com/nonlocalmodels/HPCBuildInfrastructure">HPCBuildInfrastructure</a></p>
 <div class="fragment"><div class="line">git clone https://github.com/nonlocalmodels/HPCBuildInfrastructure.git</div>
 <div class="line">cd HPCBuildInfrastructure/</div>
 </div><!-- fragment --><p> The uses version of each library is defined in the <code>config.sh</code>, if you need to change them.</p>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 Build cmake</h2>
 <p>To build all dependencies, the script <code>build-all.sh</code> is used and the last argument is always the dependency to be build.</p>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc cmake</div>
 </div><!-- fragment --><p> The first command <code>Release</code> specifies the <code>CMAKE_BUILD_TYPE</code> of the build. Note that you should use the same build type for all of the dependencies. The second command specifies if you use the gcc from the system in <code>/usr/bin</code> by using <code>without-gcc</code>. If you do not have access to gcc &gt; 4.9 on your system, we provide the option <code>with-gcc</code> to use your own build of gcc. Note you have to run <code>./build-all.sh Release with-gcc gcc</code> first to build your gcc.</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Build HPX</h2>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc hwloc</div>
 <div class="line">./build-all.sh Release without-gcc jemalloc</div>
 <div class="line">./build-all.sh Release without-gcc boost</div>
 <div class="line">./build-all.sh Release without-gcc hpx</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
 Build Blaze and blaze_iterative</h2>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc blaze</div>
 <div class="line">./build-all.sh Release without-gcc blazeIterative</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md10"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
 Build VTK</h2>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc vtk</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md13"></a>
 Build yampl-cpp</h2>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc yamlcpp</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md12"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md14"></a>
 Build NLMech</h2>
 <div class="fragment"><div class="line">./build-all.sh Release without-gcc NLMech</div>
 </div><!-- fragment --><p>All these instructions are available in a single <a href="https://github.com/nonlocalmodels/buildscripts/blob/main/bash/buildAll.sh">bash script</a> and a <a href="https://github.com/nonlocalmodels/buildscripts/blob/main/Docker/FedoraAll">Dockerfile</a>. </p>

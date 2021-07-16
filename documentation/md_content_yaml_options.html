@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('md_content_yaml_options.html',''); ini
 <div class="contents">
 <div class="textblock"><p>We use the <a href="https://de.wikipedia.org/wiki/YAML">YAML</a> file format for the configuration files. For more details on the YAML file format, we refer to this <a href="https://gettaurus.org/docs/YAMLTutorial/">tutorial</a>. Here, we introduce the option of within the YAMl file to control the simulation. <br  />
 </p>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Mesh generation</h1>
 <p>To generate a mesh the tool [mesh]() is provided and it is used as</p>
 <div class="fragment"><div class="line">mesh -i input_mesh.yaml -d 1</div>
@@ -104,7 +104,7 @@ Mesh generation</h1>
 <div class="line">Horizon: 2</div>
 <div class="line">Horizon_h_Ratio: 4 </div>
 <div class="line">Compress_Type: zlib</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md15"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md17"></a>
 Output</h2>
 <p>The tag <code>Output</code> describes details about the generate <code>.vtu</code> files using the following attributes:</p>
 <ul>
@@ -113,7 +113,7 @@ Output</h2>
 <li><code>File_Format</code>: Describes the file format of the generated file, e.g. <code>vtu</code> and <code>gmsh</code>. For the <code>vtu</code> file format we refer to the <a href="https://vtk.org/wp-content/uploads/2015/04/file-formats.pdf">VTK</a> file format documentation and for the <code>gmsh</code> file format to the <a href="http://www.manpagez.com/info/gmsh/gmsh-2.2.6/gmsh_63.php">Gmsh</a> documentation.</li>
 <li><code>Compress_Type</code> Describes the compression type of the generated file.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Domain</h2>
 <p>The tag <code>Domain</code> describes the simulation domain using the following attributes:</p>
 <ul>
@@ -122,10 +122,10 @@ Domain</h2>
 <li><code>Horizon_h_Ratio</code> Describes the number of nodes within the horizon</li>
 </ul>
 <p>For more complex geometries, the <a href="https://gmsh.info/">Gmsh</a> tool is recommended. Further examples are available <a href="https://nonlocalmodels.github.io/examples/">here</a>.</p>
-<h1><a class="anchor" id="autotoc_md17"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Simulation</h1>
 <p>Here, all tags and attributes of the YAML files are listed and described. A detailed set of examples is available <a href="https://nonlocalmodels.github.io/examples/">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md20"></a>
 Model deck</h2>
 <p>Example of a model deck:</p>
 <div class="fragment"><div class="line">Model:</div>
@@ -151,7 +151,7 @@ Model deck</h2>
 <li><code>Final_Time</code> Defines the final time</li>
 <li><code>Time_Steps</code> Defines the amount of time steps</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Restart</h2>
 <p>Example of a <code>Restart</code> deck:</p>
 <div class="fragment"><div class="line">Restart:</div>
@@ -163,7 +163,7 @@ Restart</h2>
 <li><code>Step</code> The time step to restart from</li>
 </ul>
 <p>One example of the restart of one simulation is available <a href="https://nonlocalmodels.github.io/examples/restart.html">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md20"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Mesh</h2>
 <p>Example of a <code>Mesh</code> deck:</p>
 <div class="fragment"><div class="line">Mesh:</div>
@@ -174,7 +174,7 @@ Mesh</h2>
 <li><code>File</code> Path and file name to the mesh either in the gmsh or vtu file format.</li>
 <li><code>Keep_Element_Conn</code> Keep the mesh information available</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md21"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Output</h2>
 <p>Example of a <code>Output</code> deck</p>
 <div class="fragment"><div class="line">Output:</div>
@@ -196,7 +196,7 @@ Output</h2>
 <li><code>Tag</code> Defines the field appended to the out file. The mesh is always added and all other simulation data needs to be listed.</li>
 <li><code>Perform_FE_Out</code> Store the mesh information in the output</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Boundary conditions</h2>
 <h3>Displacement boundary conditions</h3>
 <p>Example of a <code>Displacement_BC</code> deck</p>
@@ -279,7 +279,7 @@ Boundary conditions</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md23"></a>
+<h2><a class="anchor" id="autotoc_md25"></a>
 Fracture</h2>
 <p>Example of a <code>Fracture</code> deck:</p>
 <div class="fragment"><div class="line">Fracture:</div>
